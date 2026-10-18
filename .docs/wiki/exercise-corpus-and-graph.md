@@ -4,6 +4,11 @@ Research date: 2026-10-18. Status: proposed POC application design. A local
 PostgreSQL instance is now verified; the application schema and recommendation
 engine have not been implemented. See [local database operation](local-database.md).
 
+The current [requirements](../requirements/00-exercise-graph.md) prioritize
+individual exercise records and annotations. Programme/circuit recommendation
+sections below retain future design context; they are not acceptance criteria
+for the initial corpus.
+
 ## Recommendation
 
 Start with approximately 50 manually curated resistance-training exercise variants
@@ -17,11 +22,11 @@ number. Assume a POC for generally healthy adults doing general strength trainin
 This assumption narrows research and evaluation; it is not a claim that every
 exercise or policy is suitable for every adult.
 
-The first useful demonstration should answer: “Given available equipment, the
-coach's desired movement coverage, and explicit client constraints, which reviewed
-exercises could fill this programme slot, and why?” Defer individualized kilogram
-recommendations until reliable exercise-specific performance records and reviewed
-progression policies exist.
+The first useful demonstration should answer: “What is this exercise variant,
+what are its characteristics, which sources support them, and how does it differ
+from a related variant?” Support search and filtering over those characteristics.
+Programme construction and individualized kilogram recommendations are later
+workflows; neither is needed to annotate an exercise.
 
 ## Research coverage and limitations
 
@@ -300,7 +305,7 @@ rule versions. Keep licensed text/media in appropriate storage with attribution;
 do not copy full copyrighted papers merely to retain an evidence locator.
 Backups need a demonstrated restore procedure, not just a successful export.
 
-## Recommendation behaviour for the POC
+## Deferred recommendation behaviour
 
 1. Apply hard constraints first: enabled review status, known required equipment,
    requested movement coverage, defined client restrictions, and policy applicability.
@@ -320,27 +325,28 @@ policy is enabled or scientifically validated by this document.
 
 ## POC evaluation and next deliverables
 
-Before implementation, convert this proposal into a scoped plan after the intended
-population and first coach workflow are settled. A useful first release would include:
+The first implementation should support browsing, inspecting, and comparing
+individual exercise records under the current requirements. A useful first release
+would include:
 
 - Approximately 50 curated exercise variants with IDs, execution definitions,
   equipment, loading conventions, source/licence records, and review decisions.
-- A small evidence table covering the claims actually used; remaining questions
-  stay explicit. Scientific retrieval/review is a prerequisite for enabling
-  research-based recommendation policies.
+- Attribute-level anatomy/biomechanics references and a small evidence table for
+  any outcome claims actually shown; remaining questions stay explicit. General
+  programming research is not sufficient provenance for every exercise annotation.
 - A schema/migration and deterministic import/export pipeline that rejects unknown
   vocabulary, orphan relationships, duplicate identities, invalid units, and
   recommendation-enabling claims without the required review.
-- A coach-reviewed fixture set, for example 10 scenarios covering missing equipment,
-  an unknown annotation, a substitution with different loading semantics, a disputed
-  claim, an inapplicable policy, and no eligible candidates. The scenario count is a
-  scope choice; expected candidate inclusion/exclusion matters more than the count.
+- Corpus fixtures covering name aliases, materially different variants, additional
+  support equipment, different loading conventions, unknown muscle roles, disputed
+  annotations, and filtering with missing values. Review execution definitions and
+  annotation mappings with appropriate subject-matter input.
 - Demonstrated import repeatability, bounded traversal/cycle handling, version-pinned
   explanations, and database backup restoration. Later client features require
   authorization/isolation checks before using real client records.
 
-Measure constraint violations, explanation completeness, reviewer disagreement,
-and coach acceptance of candidate sets. These evaluate the software/workflow;
+Measure annotation coverage, source traceability, variant distinctions, reviewer
+disagreement, and search/filter correctness. These evaluate the software/workflow;
 they do not establish improvements in strength, hypertrophy, or injury outcomes.
 Those claims would need appropriate prospective evaluation.
 

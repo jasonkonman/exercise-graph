@@ -8,6 +8,12 @@ review, individualized exercise prescription, or independent expert approval.
 The initial extraction is complete; all proposed claims remain drafts for human
 scientific/coaching review. No recommendation policy has been enabled.
 
+The current [requirements](../requirements/00-exercise-graph.md) prioritize the
+individual exercise corpus. Programming and circuit findings below remain useful
+future context. This review supports the annotation method and some scoped variant
+claims; it does not replace exercise-specific anatomy/biomechanics lookup during
+curation.
+
 ## Main findings
 
 - **Use the 2026 ACSM position stand**, which explicitly updates the 2009 stand.

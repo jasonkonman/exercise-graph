@@ -1,6 +1,7 @@
 # exercise-graph
 
-A research-grounded exercise corpus and graph for coach-assisted programming.
+A research-grounded corpus of individual exercises, their characteristics,
+variants, and supporting evidence. Coach-assisted programming is a later workflow.
 The repository contains requirements, design research, and local PostgreSQL
 tooling. The exercise application is not implemented yet.
 

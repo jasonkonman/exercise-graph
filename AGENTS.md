@@ -2,9 +2,10 @@
 
 ## Project purpose
 
-Build a corpus of physical exercises and an explainable graph that helps coaches
-construct circuits, sessions, and longer programmes. Future recommendations may
-use client history, readiness, and coach goals to propose exercise loads.
+Build a corpus of individual physical exercises, their characteristics, variants,
+and supporting evidence. The current POC must be useful for finding, inspecting,
+and comparing exercises on their own. Circuit/session construction and personalized
+programming are later workflows and must not drive the initial corpus requirements.
 
 The exercise corpus, graph claims, and programming recommendations must be grounded
 in scientific research on physical training. Scientific grounding is a product
@@ -50,6 +51,10 @@ in the database guide and do not invent application build or test commands.
 
 - Separate anatomical/biomechanical descriptions, training-outcome claims,
   programming policies, coach heuristics, and client observations.
+- Use anatomy/biomechanics references for descriptive exercise annotations and
+  training research for outcome claims. Do not require a programming trial for
+  every catalog attribute, or treat a programming review as proof of every muscle
+  label. Fill exercise-specific evidence gaps during curation and retain unknowns.
 - Attach evidence to the specific claim or rule it supports. A citation on an
   exercise, or a shared muscle tag, does not support every recommendation about it.
 - Record source identifiers/URLs, publication year, access date, relevant passage
