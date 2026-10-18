@@ -1,0 +1,455 @@
+{
+  "schema_version": 1,
+  "families": {
+    "squat": {
+      "label": "Squat",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "split_squat": {
+      "label": "Split squat",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "lunge": {
+      "label": "Lunge",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "step_up": {
+      "label": "Step-up",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "leg_press": {
+      "label": "Leg press",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "deadlift": {
+      "label": "Deadlift",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "hip_hinge": {
+      "label": "Hip hinge",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "hip_bridge": {
+      "label": "Hip bridge / thrust",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "knee_flexion": {
+      "label": "Knee-flexion exercise",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "knee_extension": {
+      "label": "Knee-extension exercise",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "calf_raise": {
+      "label": "Calf raise",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "bench_press": {
+      "label": "Bench / chest press",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "push_up": {
+      "label": "Push-up",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "overhead_press": {
+      "label": "Overhead press",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "lateral_raise": {
+      "label": "Shoulder lateral raise",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "row": {
+      "label": "Row",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "vertical_pull": {
+      "label": "Vertical pull",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "reverse_fly": {
+      "label": "Reverse fly",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "elbow_flexion": {
+      "label": "Elbow-flexion exercise",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "elbow_extension": {
+      "label": "Elbow-extension exercise",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "anti_extension": {
+      "label": "Trunk anti-extension task",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "lateral_trunk_hold": {
+      "label": "Lateral trunk hold",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "trunk_control": {
+      "label": "Trunk control with limb movement",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "trunk_flexion": {
+      "label": "Trunk flexion",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "anti_rotation": {
+      "label": "Trunk anti-rotation task",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    },
+    "loaded_carry": {
+      "label": "Loaded carry",
+      "meaning": "Descriptive project grouping, not an equivalence or outcome claim."
+    }
+  },
+  "movement_patterns": {
+    "squat": "Squat",
+    "split_squat": "Split squat",
+    "lunge": "Lunge",
+    "step_up": "Step up",
+    "hip_hinge": "Hip hinge",
+    "hip_extension": "Hip extension",
+    "knee_flexion": "Knee flexion",
+    "knee_extension": "Knee extension",
+    "plantarflexion": "Plantarflexion",
+    "horizontal_push": "Horizontal push",
+    "inclined_push": "Inclined push",
+    "vertical_push": "Vertical push",
+    "shoulder_abduction": "Shoulder abduction",
+    "horizontal_pull": "Horizontal pull",
+    "vertical_pull": "Vertical pull",
+    "shoulder_horizontal_abduction": "Shoulder horizontal abduction",
+    "elbow_flexion": "Elbow flexion",
+    "elbow_extension": "Elbow extension",
+    "anti_extension": "Anti extension",
+    "anti_lateral_flexion": "Anti lateral flexion",
+    "trunk_flexion": "Trunk flexion",
+    "anti_rotation": "Anti rotation",
+    "loaded_carry": "Loaded carry"
+  },
+  "joint_actions": {
+    "hip_extension": "Hip extension",
+    "knee_extension": "Knee extension",
+    "knee_flexion": "Knee flexion",
+    "ankle_plantarflexion": "Ankle plantarflexion",
+    "shoulder_horizontal_adduction": "Shoulder horizontal adduction",
+    "shoulder_flexion": "Shoulder flexion",
+    "shoulder_abduction": "Shoulder abduction",
+    "shoulder_extension": "Shoulder extension",
+    "shoulder_adduction": "Shoulder adduction",
+    "shoulder_horizontal_abduction": "Shoulder horizontal abduction",
+    "elbow_extension": "Elbow extension",
+    "elbow_flexion": "Elbow flexion",
+    "scapular_retraction": "Scapular retraction",
+    "scapular_protraction": "Scapular protraction",
+    "trunk_flexion": "Trunk flexion",
+    "resist_trunk_extension": "Resist trunk extension",
+    "resist_trunk_flexion": "Resist trunk flexion",
+    "resist_trunk_lateral_flexion": "Resist trunk lateral flexion",
+    "resist_trunk_rotation": "Resist trunk rotation",
+    "finger_flexion_hold": "Finger flexion hold",
+    "gait_cycle": "Gait cycle"
+  },
+  "equipment": {
+    "kettlebell": "Kettlebell",
+    "dumbbell": "Dumbbell",
+    "barbell": "Barbell",
+    "weight_plates": "Weight plates",
+    "squat_rack": "Squat rack",
+    "safety_arms": "Safety arms",
+    "flat_bench": "Flat bench",
+    "adjustable_bench": "Adjustable bench",
+    "step_platform": "Step platform",
+    "leg_press_machine": "Leg press machine",
+    "trap_bar": "Trap bar",
+    "bar_pad": "Bar pad",
+    "seated_leg_curl_machine": "Seated leg curl machine",
+    "prone_leg_curl_machine": "Prone leg curl machine",
+    "leg_extension_machine": "Leg extension machine",
+    "standing_calf_raise_machine": "Standing calf raise machine",
+    "seated_calf_raise_machine": "Seated calf raise machine",
+    "chest_press_machine": "Chest press machine",
+    "cable_station": "Cable station",
+    "row_handle": "Row handle",
+    "lat_pulldown_station": "Lat pulldown station",
+    "lat_bar": "Lat bar",
+    "pull_up_bar": "Pull up bar",
+    "rope_attachment": "Rope attachment",
+    "single_handle": "Single handle"
+  },
+  "muscles": {
+    "quadriceps_femoris": {
+      "label": "Quadriceps femoris",
+      "kind": "muscle_group",
+      "references": [
+        {
+          "source_id": "anatomy-lower",
+          "locator": "fs-id2591754; fig-ch11_06_03"
+        }
+      ],
+      "notes": "Knee extensors; no equal contribution or regional growth is implied."
+    },
+    "gluteus_maximus": {
+      "label": "Gluteus maximus",
+      "kind": "muscle",
+      "references": [
+        {
+          "source_id": "anatomy-lower",
+          "locator": "fig-ch11_06_02; fs-id1546298"
+        }
+      ],
+      "notes": ""
+    },
+    "hamstrings": {
+      "label": "Hamstrings",
+      "kind": "muscle_group",
+      "references": [
+        {
+          "source_id": "anatomy-lower",
+          "locator": "fs-id2012638; fig-ch11_06_03"
+        }
+      ],
+      "notes": "Knee-flexor group; individual heads are not ranked."
+    },
+    "biarticular_hamstrings": {
+      "label": "Biarticular hamstrings",
+      "kind": "muscle_group",
+      "references": [
+        {
+          "source_id": "anatomy-lower",
+          "locator": "fs-id2012638; fig-ch11_06_03"
+        }
+      ],
+      "notes": "Hip-extension interpretation concerns semitendinosus, semimembranosus and biceps femoris long head, not the short head."
+    },
+    "gastrocnemius": {
+      "label": "Gastrocnemius",
+      "kind": "muscle",
+      "references": [
+        {
+          "source_id": "anatomy-lower",
+          "locator": "fs-id2421915; fig-ch11_06_04; fig-ch11_06_05"
+        }
+      ],
+      "notes": ""
+    },
+    "soleus": {
+      "label": "Soleus",
+      "kind": "muscle",
+      "references": [
+        {
+          "source_id": "anatomy-lower",
+          "locator": "fs-id2421915; fig-ch11_06_04; fig-ch11_06_05"
+        }
+      ],
+      "notes": ""
+    },
+    "iliopsoas": {
+      "label": "Iliopsoas",
+      "kind": "muscle_group",
+      "references": [
+        {
+          "source_id": "anatomy-lower",
+          "locator": "fs-id2105968; fig-ch11_06_02"
+        }
+      ],
+      "notes": ""
+    },
+    "pectoralis_major": {
+      "label": "Pectoralis major",
+      "kind": "muscle",
+      "references": [
+        {
+          "source_id": "anatomy-upper",
+          "locator": "fs-id2008704; fig-ch11_05_03"
+        }
+      ],
+      "notes": ""
+    },
+    "deltoid": {
+      "label": "Deltoid",
+      "kind": "muscle",
+      "references": [
+        {
+          "source_id": "anatomy-upper",
+          "locator": "fs-id2501482; fig-ch11_05_03"
+        }
+      ],
+      "notes": "Head-specific activation or hypertrophy is not established by this annotation."
+    },
+    "latissimus_dorsi": {
+      "label": "Latissimus dorsi",
+      "kind": "muscle",
+      "references": [
+        {
+          "source_id": "anatomy-upper",
+          "locator": "fs-id2008704; fig-ch11_05_03"
+        }
+      ],
+      "notes": ""
+    },
+    "trapezius": {
+      "label": "Trapezius",
+      "kind": "muscle",
+      "references": [
+        {
+          "source_id": "anatomy-upper",
+          "locator": "tbl-ch11_08"
+        }
+      ],
+      "notes": "Region-specific roles depend on the task; no uniform whole-muscle activation is assumed."
+    },
+    "rhomboids": {
+      "label": "Rhomboid major and minor",
+      "kind": "muscle_group",
+      "references": [
+        {
+          "source_id": "anatomy-upper",
+          "locator": "fs-id2129930; tbl-ch11_08"
+        }
+      ],
+      "notes": ""
+    },
+    "serratus_anterior": {
+      "label": "Serratus anterior",
+      "kind": "muscle",
+      "references": [
+        {
+          "source_id": "anatomy-upper",
+          "locator": "tbl-ch11_08"
+        }
+      ],
+      "notes": ""
+    },
+    "biceps_brachii": {
+      "label": "Biceps brachii",
+      "kind": "muscle",
+      "references": [
+        {
+          "source_id": "anatomy-upper",
+          "locator": "fs-id2271811; fs-id2831016; fs-id2443705"
+        }
+      ],
+      "notes": ""
+    },
+    "brachialis": {
+      "label": "Brachialis",
+      "kind": "muscle",
+      "references": [
+        {
+          "source_id": "anatomy-upper",
+          "locator": "fs-id2271811; fs-id2831016; fs-id2443705"
+        }
+      ],
+      "notes": ""
+    },
+    "brachioradialis": {
+      "label": "Brachioradialis",
+      "kind": "muscle",
+      "references": [
+        {
+          "source_id": "anatomy-upper",
+          "locator": "fs-id2271811; fs-id2831016; fs-id2443705"
+        }
+      ],
+      "notes": ""
+    },
+    "triceps_brachii": {
+      "label": "Triceps brachii",
+      "kind": "muscle",
+      "references": [
+        {
+          "source_id": "anatomy-upper",
+          "locator": "fs-id2271811; fs-id2831016; fs-id2443705"
+        }
+      ],
+      "notes": ""
+    },
+    "supraspinatus": {
+      "label": "Supraspinatus",
+      "kind": "muscle",
+      "references": [
+        {
+          "source_id": "anatomy-upper",
+          "locator": "fs-id2501482"
+        }
+      ],
+      "notes": ""
+    },
+    "rectus_abdominis": {
+      "label": "Rectus abdominis",
+      "kind": "muscle",
+      "references": [
+        {
+          "source_id": "anatomy-trunk",
+          "locator": "tbl-ch11_06"
+        }
+      ],
+      "notes": ""
+    },
+    "obliques": {
+      "label": "Internal and external obliques",
+      "kind": "muscle_group",
+      "references": [
+        {
+          "source_id": "anatomy-trunk",
+          "locator": "tbl-ch11_06"
+        }
+      ],
+      "notes": "A qualitative role for the group; no individual side or layer contribution is quantified."
+    },
+    "quadratus_lumborum": {
+      "label": "Quadratus lumborum",
+      "kind": "muscle",
+      "references": [
+        {
+          "source_id": "anatomy-trunk",
+          "locator": "tbl-ch11_06"
+        }
+      ],
+      "notes": ""
+    },
+    "erector_spinae": {
+      "label": "Erector spinae",
+      "kind": "muscle_group",
+      "references": [
+        {
+          "source_id": "anatomy-back",
+          "locator": "fs-id2586421"
+        }
+      ],
+      "notes": ""
+    },
+    "finger_flexors": {
+      "label": "Long finger flexors",
+      "kind": "muscle_group",
+      "references": [
+        {
+          "source_id": "anatomy-roles",
+          "locator": "tbl-ch11_01"
+        }
+      ],
+      "notes": "Flexor digitorum superficialis/profundus are representative; this is not an exhaustive grip-muscle list."
+    }
+  },
+  "body_regions": {
+    "lower_body": "Lower body",
+    "upper_body": "Upper body",
+    "trunk": "Trunk"
+  },
+  "planes": {
+    "sagittal": "Predominantly sagittal",
+    "frontal": "Predominantly frontal",
+    "transverse": "Predominantly transverse",
+    "multi_planar": "Mixed planes"
+  },
+  "muscle_roles": {
+    "working_contributor": "Inferred contributor to the defined working movement; not a rank or growth estimate.",
+    "isometric_stabilizer": "Inferred contributor to maintaining a described position; not a quantified activation claim.",
+    "grip_contributor": "Inferred contributor to holding an implement."
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "id": "forearm-plank",
+  "revision": 1,
+  "name": "Forearm plank",
+  "aliases": [
+    "Prone forearm plank"
+  ],
+  "family_id": "anti_extension",
+  "definition": "Support the body on both forearms and toes with the torso held between them. Maintain the selected trunk and pelvic position for the recorded duration.",
+  "catalogue_anchor": {
+    "source_id": "free-exercise-db",
+    "record_id": "Plank",
+    "relationship": "catalogue_context",
+    "upstream_name": "Plank",
+    "upstream_primary_muscles": [
+      "abdominals"
+    ],
+    "upstream_secondary_muscles": [],
+    "upstream_labels_status": "unreviewed",
+    "notes": "Original broad muscle labels retained separately; not silently promoted to accepted anatomy."
+  },
+  "annotations": {
+    "execution": {
+      "status": "known",
+      "value": {
+        "start": "Support the body on both forearms and toes with the torso held between them.",
+        "movement": "Maintain the selected trunk and pelvic position for the recorded duration.",
+        "finish": "End the hold by returning to floor support.",
+        "range_of_motion": "No intended trunk joint excursion during the hold; document the starting body alignment."
+      },
+      "basis": "project_defined_variant",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        },
+        {
+          "source_id": "free-exercise-db",
+          "locator": "exercises/Plank.json"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Project-authored execution definition; the catalogue is contextual reference, not proof of this exact protocol."
+    },
+    "equipment": {
+      "status": "known",
+      "value": [],
+      "basis": "project_defined_variant",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        },
+        {
+          "source_id": "free-exercise-db",
+          "locator": "exercises/Plank.json"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Required implements/supports for this definition; no optional apparatus is silently assumed. A normal floor is assumed."
+    },
+    "movement_patterns": {
+      "status": "known",
+      "value": [
+        "anti_extension"
+      ],
+      "basis": "coaching_classification",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        }
+      ],
+      "review_status": "draft",
+      "notes": ""
+    },
+    "body_regions": {
+      "status": "known",
+      "value": [
+        "trunk"
+      ],
+      "basis": "coaching_classification",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        }
+      ],
+      "review_status": "draft",
+      "notes": ""
+    },
+    "force": {
+      "status": "known",
+      "value": "static",
+      "basis": "coaching_classification",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Qualitative movement tag, not a force-vector measurement or a statement that every joint acts alike."
+    },
+    "joint_actions": {
+      "status": "known",
+      "value": [
+        "resist_trunk_extension"
+      ],
+      "basis": "biomechanical_interpretation",
+      "references": [
+        {
+          "source_id": "anatomy-movement",
+          "locator": "Flexion and Extension; Abduction and Adduction; Dorsiflexion and Plantar Flexion; Protraction and Retraction"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Actions describe the working/raising phase or the resisted trunk motion; return phases reverse dynamic actions. Not exhaustive kinematics."
+    },
+    "planes": {
+      "status": "known",
+      "value": [
+        "sagittal"
+      ],
+      "basis": "biomechanical_interpretation",
+      "references": [
+        {
+          "source_id": "anatomy-movement",
+          "locator": "Flexion and Extension; Abduction and Adduction; Dorsiflexion and Plantar Flexion; Protraction and Retraction"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Qualitative dominant movement or resisted plane(s), not measured trajectories. Static holds have no intended joint excursion; other planes can contribute."
+    },
+    "muscles": {
+      "status": "known",
+      "value": [
+        {
+          "muscle_id": "rectus_abdominis",
+          "role": "isometric_stabilizer",
+          "references": [
+            {
+              "source_id": "anatomy-trunk",
+              "locator": "tbl-ch11_06"
+            }
+          ]
+        },
+        {
+          "muscle_id": "obliques",
+          "role": "isometric_stabilizer",
+          "references": [
+            {
+              "source_id": "anatomy-trunk",
+              "locator": "tbl-ch11_06"
+            }
+          ]
+        }
+      ],
+      "basis": "biomechanical_interpretation",
+      "references": [
+        {
+          "source_id": "anatomy-trunk",
+          "locator": "tbl-ch11_06"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Anatomical action plus defined execution; inferred roles, not exercise-trial validation. Selected contributors only, with no relative activation or hypertrophy ranking."
+    },
+    "laterality": {
+      "status": "known",
+      "value": {
+        "execution": "bilateral",
+        "record_sides": "combined"
+      },
+      "basis": "project_defined_variant",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        },
+        {
+          "source_id": "free-exercise-db",
+          "locator": "exercises/Plank.json"
+        }
+      ],
+      "review_status": "draft",
+      "notes": ""
+    },
+    "support": {
+      "status": "known",
+      "value": "Both forearms and toes on floor; knees not used as support.",
+      "basis": "project_defined_variant",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        },
+        {
+          "source_id": "free-exercise-db",
+          "locator": "exercises/Plank.json"
+        }
+      ],
+      "review_status": "draft",
+      "notes": ""
+    },
+    "mechanics": {
+      "status": "known",
+      "value": "isometric_hold",
+      "basis": "coaching_classification",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Classification follows intended moving joints/holds, not absence of stabilizer activity."
+    },
+    "loading": {
+      "status": "known",
+      "value": {
+        "resistance_type": "bodyweight",
+        "load_convention": "none",
+        "load_unit": null,
+        "primary_measure": "seconds"
+      },
+      "basis": "project_defined_variant",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        },
+        {
+          "source_id": "free-exercise-db",
+          "locator": "exercises/Plank.json"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Record external load separately from body mass. Device settings/lever arms and band-like assistance are not interchangeable kilogram measures."
+    },
+    "coaching_cues": {
+      "status": "known",
+      "value": [
+        "Record hold duration separately from repetitions.",
+        "Use the same forearm and foot placement when comparing holds."
+      ],
+      "basis": "coaching_judgment",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        },
+        {
+          "source_id": "free-exercise-db",
+          "locator": "exercises/Plank.json"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Qualitative draft cues, not clinically validated precautions."
+    },
+    "prerequisites": {
+      "status": "known",
+      "value": [
+        "Establish the setup and chosen ROM before adding or changing resistance.",
+        "Confirm the intended execution with a coach if its definition is unfamiliar."
+      ],
+      "basis": "coaching_judgment",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        }
+      ],
+      "review_status": "draft",
+      "notes": ""
+    },
+    "numeric_joint_rom": {
+      "status": "unknown",
+      "value": null,
+      "basis": "not_established",
+      "references": [],
+      "review_status": "draft",
+      "notes": "No reviewed numerical joint-angle endpoints for this corpus variant; use the textual execution definition."
+    },
+    "clinical_precautions": {
+      "status": "unknown",
+      "value": null,
+      "basis": "not_established",
+      "references": [],
+      "review_status": "draft",
+      "notes": "No exercise-specific clinical contraindication review completed. Unknown does not mean safe for every person."
+    },
+    "difficulty": {
+      "status": "unknown",
+      "value": null,
+      "basis": "not_established",
+      "references": [],
+      "review_status": "draft",
+      "notes": "No validated universal beginner/intermediate/expert rating assigned."
+    }
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": [
+      "Confirm setup, qualitative ROM, inferred muscle roles, and loading convention during review."
+    ]
+  },
+  "recommendation_eligible": false
+}

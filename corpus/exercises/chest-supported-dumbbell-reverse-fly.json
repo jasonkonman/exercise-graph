@@ -1,0 +1,333 @@
+{
+  "id": "chest-supported-dumbbell-reverse-fly",
+  "revision": 1,
+  "name": "Chest-supported dumbbell reverse fly",
+  "aliases": [
+    "Incline-bench rear lateral raise"
+  ],
+  "family_id": "reverse_fly",
+  "definition": "Lie chest-down on a low-incline bench with dumbbells hanging below and elbows slightly bent. Move the arms outward and back toward the torso plane, then lower.",
+  "catalogue_anchor": {
+    "source_id": "free-exercise-db",
+    "record_id": "Dumbbell_Lying_Rear_Lateral_Raise",
+    "relationship": "catalogue_context",
+    "upstream_name": "Dumbbell Lying Rear Lateral Raise",
+    "upstream_primary_muscles": [
+      "shoulders"
+    ],
+    "upstream_secondary_muscles": [],
+    "upstream_labels_status": "unreviewed",
+    "notes": "Original broad muscle labels retained separately; not silently promoted to accepted anatomy."
+  },
+  "annotations": {
+    "execution": {
+      "status": "known",
+      "value": {
+        "start": "Lie chest-down on a low-incline bench with dumbbells hanging below and elbows slightly bent.",
+        "movement": "Move the arms outward and back toward the torso plane, then lower.",
+        "finish": "Return to the same hanging-arm position.",
+        "range_of_motion": "Record bench angle, elbow bend and upper-arm endpoint."
+      },
+      "basis": "project_defined_variant",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        },
+        {
+          "source_id": "free-exercise-db",
+          "locator": "exercises/Dumbbell_Lying_Rear_Lateral_Raise.json"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Project-authored execution definition; the catalogue is contextual reference, not proof of this exact protocol."
+    },
+    "equipment": {
+      "status": "known",
+      "value": [
+        "dumbbell",
+        "adjustable_bench"
+      ],
+      "basis": "project_defined_variant",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        },
+        {
+          "source_id": "free-exercise-db",
+          "locator": "exercises/Dumbbell_Lying_Rear_Lateral_Raise.json"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Required implements/supports for this definition; no optional apparatus is silently assumed. A normal floor is assumed."
+    },
+    "movement_patterns": {
+      "status": "known",
+      "value": [
+        "shoulder_horizontal_abduction"
+      ],
+      "basis": "coaching_classification",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        }
+      ],
+      "review_status": "draft",
+      "notes": ""
+    },
+    "body_regions": {
+      "status": "known",
+      "value": [
+        "upper_body"
+      ],
+      "basis": "coaching_classification",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        }
+      ],
+      "review_status": "draft",
+      "notes": ""
+    },
+    "force": {
+      "status": "known",
+      "value": "pull",
+      "basis": "coaching_classification",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Qualitative movement tag, not a force-vector measurement or a statement that every joint acts alike."
+    },
+    "joint_actions": {
+      "status": "known",
+      "value": [
+        "shoulder_horizontal_abduction",
+        "scapular_retraction"
+      ],
+      "basis": "biomechanical_interpretation",
+      "references": [
+        {
+          "source_id": "anatomy-movement",
+          "locator": "Flexion and Extension; Abduction and Adduction; Dorsiflexion and Plantar Flexion; Protraction and Retraction"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Actions describe the working/raising phase or the resisted trunk motion; return phases reverse dynamic actions. Not exhaustive kinematics."
+    },
+    "planes": {
+      "status": "known",
+      "value": [
+        "transverse"
+      ],
+      "basis": "biomechanical_interpretation",
+      "references": [
+        {
+          "source_id": "anatomy-movement",
+          "locator": "Flexion and Extension; Abduction and Adduction; Dorsiflexion and Plantar Flexion; Protraction and Retraction"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Qualitative dominant movement or resisted plane(s), not measured trajectories. Static holds have no intended joint excursion; other planes can contribute."
+    },
+    "muscles": {
+      "status": "known",
+      "value": [
+        {
+          "muscle_id": "deltoid",
+          "role": "working_contributor",
+          "references": [
+            {
+              "source_id": "anatomy-upper",
+              "locator": "fs-id2501482; fig-ch11_05_03"
+            }
+          ]
+        },
+        {
+          "muscle_id": "rhomboids",
+          "role": "working_contributor",
+          "references": [
+            {
+              "source_id": "anatomy-upper",
+              "locator": "fs-id2129930; tbl-ch11_08"
+            }
+          ]
+        },
+        {
+          "muscle_id": "trapezius",
+          "role": "working_contributor",
+          "references": [
+            {
+              "source_id": "anatomy-upper",
+              "locator": "tbl-ch11_08"
+            }
+          ]
+        }
+      ],
+      "basis": "biomechanical_interpretation",
+      "references": [
+        {
+          "source_id": "anatomy-upper",
+          "locator": "fs-id2501482; fig-ch11_05_03"
+        },
+        {
+          "source_id": "anatomy-upper",
+          "locator": "fs-id2129930; tbl-ch11_08"
+        },
+        {
+          "source_id": "anatomy-upper",
+          "locator": "tbl-ch11_08"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Anatomical action plus defined execution; inferred roles, not exercise-trial validation. Selected contributors only, with no relative activation or hypertrophy ranking."
+    },
+    "laterality": {
+      "status": "known",
+      "value": {
+        "execution": "bilateral",
+        "record_sides": "combined"
+      },
+      "basis": "project_defined_variant",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        },
+        {
+          "source_id": "free-exercise-db",
+          "locator": "exercises/Dumbbell_Lying_Rear_Lateral_Raise.json"
+        }
+      ],
+      "review_status": "draft",
+      "notes": ""
+    },
+    "support": {
+      "status": "known",
+      "value": "Chest supported by bench; lower body braced on the floor.",
+      "basis": "project_defined_variant",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        },
+        {
+          "source_id": "free-exercise-db",
+          "locator": "exercises/Dumbbell_Lying_Rear_Lateral_Raise.json"
+        }
+      ],
+      "review_status": "draft",
+      "notes": ""
+    },
+    "mechanics": {
+      "status": "known",
+      "value": "mixed",
+      "basis": "coaching_classification",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Classification follows intended moving joints/holds, not absence of stabilizer activity."
+    },
+    "loading": {
+      "status": "known",
+      "value": {
+        "resistance_type": "external",
+        "load_convention": "per_dumbbell",
+        "load_unit": "kg",
+        "primary_measure": "repetitions"
+      },
+      "basis": "project_defined_variant",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        },
+        {
+          "source_id": "free-exercise-db",
+          "locator": "exercises/Dumbbell_Lying_Rear_Lateral_Raise.json"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Record external load separately from body mass. Device settings/lever arms and band-like assistance are not interchangeable kilogram measures."
+    },
+    "coaching_cues": {
+      "status": "known",
+      "value": [
+        "Keep the elbow angle relatively fixed rather than turning it into a row.",
+        "Record the low-incline support position."
+      ],
+      "basis": "coaching_judgment",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        },
+        {
+          "source_id": "free-exercise-db",
+          "locator": "exercises/Dumbbell_Lying_Rear_Lateral_Raise.json"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Qualitative draft cues, not clinically validated precautions."
+    },
+    "prerequisites": {
+      "status": "known",
+      "value": [
+        "Establish the setup and chosen ROM before adding or changing resistance.",
+        "Confirm the intended execution with a coach if its definition is unfamiliar."
+      ],
+      "basis": "coaching_judgment",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        }
+      ],
+      "review_status": "draft",
+      "notes": ""
+    },
+    "numeric_joint_rom": {
+      "status": "unknown",
+      "value": null,
+      "basis": "not_established",
+      "references": [],
+      "review_status": "draft",
+      "notes": "No reviewed numerical joint-angle endpoints for this corpus variant; use the textual execution definition."
+    },
+    "clinical_precautions": {
+      "status": "unknown",
+      "value": null,
+      "basis": "not_established",
+      "references": [],
+      "review_status": "draft",
+      "notes": "No exercise-specific clinical contraindication review completed. Unknown does not mean safe for every person."
+    },
+    "difficulty": {
+      "status": "unknown",
+      "value": null,
+      "basis": "not_established",
+      "references": [],
+      "review_status": "draft",
+      "notes": "No validated universal beginner/intermediate/expert rating assigned."
+    }
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": [
+      "Broad deltoid involvement is recorded without claiming validated posterior-head growth or activation percentages."
+    ]
+  },
+  "recommendation_eligible": false
+}

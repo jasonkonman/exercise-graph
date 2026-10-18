@@ -9,6 +9,11 @@ individual exercise records and annotations. Programme/circuit recommendation
 sections below retain future design context; they are not acceptance criteria
 for the initial corpus.
 
+The branch now contains a [50-variant draft corpus](../../corpus/REVIEW.md) with
+anatomy references, original definitions, explicit unknowns, and lightweight review
+commands. [Its guide](../../corpus/README.md) distinguishes implemented seed data
+from the future PostgreSQL application and the broader proposals below.
+
 ## Recommendation
 
 Start with approximately 50 manually curated resistance-training exercise variants

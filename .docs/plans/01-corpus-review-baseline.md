@@ -1,6 +1,7 @@
 # Individual exercise corpus: branch completion plan
 
-Status: in progress. Continue the existing feature branch at the user's request.
+Status: complete as a draft for user review. Continued the existing feature branch
+at the user's request; no merge or human approval has been recorded.
 
 ## Deliverable
 
@@ -32,3 +33,17 @@ activation percentages, injury-risk scores, or universal exercise rankings.
 Anatomical interpretation must not be mislabeled as a direct exercise trial.
 Unknown clinical precautions, numerical ROM, and outcome comparisons remain
 explicit rather than fabricated to make fields look complete.
+
+## Delivered and checked
+
+- Fifty JSON records across 26 families, a controlled vocabulary, eight source
+  records, and a generated review catalog; all records and annotations are drafts.
+- Attribute-level provenance and source-specific notes. Twenty-three anatomical
+  muscle locators and all 50 catalog anchors checked against the pinned material.
+- Standard-library CLI for validation, search/filter, inspection, comparison,
+  deterministic review generation, and versioned JSON export.
+- Fourteen tests passed, covering unavailable supports, unknown-value semantics,
+  variant separation, alias/source/vocabulary integrity, loading conventions,
+  draft gates, export roundtrip, and current review output.
+- No database importer/backend or prescribing feature added. User review and
+  finalization of this starting corpus are the remaining branch decisions.

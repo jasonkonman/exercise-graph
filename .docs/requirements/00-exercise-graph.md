@@ -145,4 +145,7 @@ personalized weights must not become prerequisites for the individual corpus.
 - [PostgreSQL decision and local operation](../wiki/local-database.md)
 
 These corpus-first requirements take precedence over earlier programme/circuit
-POC examples in the design research. Application features remain unimplemented.
+POC examples in the design research. A [50-variant starting corpus](../../corpus/REVIEW.md)
+and review/validation commands are now implemented as draft seed data. Database
+import and application workflows remain unimplemented and are outside this
+corpus-only branch deliverable.

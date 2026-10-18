@@ -18,14 +18,24 @@ requirement, not a label applied to an exercise list.
 - Wiki: `.docs/wiki/*.md`; one topic per file, documenting research, decisions, and
   the latest implemented state. Label proposals separately from implemented features.
 - Feature requests: `.docs/requirements/98-feature-requests.md`, when created.
+- Corpus records, manifest, vocabulary, and sources: `corpus/`; format and commands
+  are documented in `corpus/README.md` and `corpus/FORMAT.md`.
+- Human-readable starting corpus: `corpus/REVIEW.md`, generated from the JSON.
 - Initial corpus/graph research: `.docs/wiki/exercise-corpus-and-graph.md`.
 - Database decision and local operation: `.docs/wiki/local-database.md`.
 - Exercise-science synthesis: `.docs/wiki/exercise-science-review.md`.
 - Search, source, and draft claim records: `.docs/research/2026-10-18/*.json`.
 
-Use `.docs/` consistently. The repository has documentation and local database
-tooling; the exercise application is not implemented. Use the verified commands
-in the database guide and do not invent application build or test commands.
+Use `.docs/` consistently for project docs. The repository has a draft corpus,
+standard-library Python review/validation tooling, and local database tooling;
+it has no web application or PostgreSQL application schema.
+
+For corpus changes, edit the canonical JSON, increment a changed record's revision,
+run `python3 scripts/corpus.py validate`, regenerate the review with
+`python3 scripts/corpus.py render`, and run
+`python3 -m unittest discover -s tests -v` plus
+`python3 scripts/corpus.py render --check`. Do not treat passing these checks as
+scientific approval. Preserve actual draft status until human review is recorded.
 
 ## Persistence decision and local development
 

@@ -14,6 +14,11 @@ future context. This review supports the annotation method and some scoped varia
 claims; it does not replace exercise-specific anatomy/biomechanics lookup during
 curation.
 
+That curation has now produced a [50-variant draft baseline](../../corpus/REVIEW.md),
+using additional anatomy references for descriptive interpretations. It remains
+pending user review; this is not a claim that every annotation or exercise outcome
+has independent scientific approval.
+
 ## Main findings
 
 - **Use the 2026 ACSM position stand**, which explicitly updates the 2009 stand.

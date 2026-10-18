@@ -1,0 +1,303 @@
+{
+  "id": "seated-machine-leg-curl",
+  "revision": 1,
+  "name": "Seated machine leg curl",
+  "aliases": [
+    "Seated leg curl"
+  ],
+  "family_id": "knee_flexion",
+  "definition": "Sit in a leg-curl machine with thighs restrained and lower legs against its pad. Bend both knees to move the pad through its curling path, then return.",
+  "catalogue_anchor": {
+    "source_id": "free-exercise-db",
+    "record_id": "Seated_Leg_Curl",
+    "relationship": "catalogue_context",
+    "upstream_name": "Seated Leg Curl",
+    "upstream_primary_muscles": [
+      "hamstrings"
+    ],
+    "upstream_secondary_muscles": [],
+    "upstream_labels_status": "unreviewed",
+    "notes": "Original broad muscle labels retained separately; not silently promoted to accepted anatomy."
+  },
+  "annotations": {
+    "execution": {
+      "status": "known",
+      "value": {
+        "start": "Sit in a leg-curl machine with thighs restrained and lower legs against its pad.",
+        "movement": "Bend both knees to move the pad through its curling path, then return.",
+        "finish": "Return to the defined extended-knee start.",
+        "range_of_motion": "Use repeatable device stops; record seat/hip position and lever alignment."
+      },
+      "basis": "project_defined_variant",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        },
+        {
+          "source_id": "free-exercise-db",
+          "locator": "exercises/Seated_Leg_Curl.json"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Project-authored execution definition; the catalogue is contextual reference, not proof of this exact protocol."
+    },
+    "equipment": {
+      "status": "known",
+      "value": [
+        "seated_leg_curl_machine"
+      ],
+      "basis": "project_defined_variant",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        },
+        {
+          "source_id": "free-exercise-db",
+          "locator": "exercises/Seated_Leg_Curl.json"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Required implements/supports for this definition; no optional apparatus is silently assumed. A normal floor is assumed."
+    },
+    "movement_patterns": {
+      "status": "known",
+      "value": [
+        "knee_flexion"
+      ],
+      "basis": "coaching_classification",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        }
+      ],
+      "review_status": "draft",
+      "notes": ""
+    },
+    "body_regions": {
+      "status": "known",
+      "value": [
+        "lower_body"
+      ],
+      "basis": "coaching_classification",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        }
+      ],
+      "review_status": "draft",
+      "notes": ""
+    },
+    "force": {
+      "status": "known",
+      "value": "pull",
+      "basis": "coaching_classification",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Qualitative movement tag, not a force-vector measurement or a statement that every joint acts alike."
+    },
+    "joint_actions": {
+      "status": "known",
+      "value": [
+        "knee_flexion"
+      ],
+      "basis": "biomechanical_interpretation",
+      "references": [
+        {
+          "source_id": "anatomy-movement",
+          "locator": "Flexion and Extension; Abduction and Adduction; Dorsiflexion and Plantar Flexion; Protraction and Retraction"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Actions describe the working/raising phase or the resisted trunk motion; return phases reverse dynamic actions. Not exhaustive kinematics."
+    },
+    "planes": {
+      "status": "known",
+      "value": [
+        "sagittal"
+      ],
+      "basis": "biomechanical_interpretation",
+      "references": [
+        {
+          "source_id": "anatomy-movement",
+          "locator": "Flexion and Extension; Abduction and Adduction; Dorsiflexion and Plantar Flexion; Protraction and Retraction"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Qualitative dominant movement or resisted plane(s), not measured trajectories. Static holds have no intended joint excursion; other planes can contribute."
+    },
+    "muscles": {
+      "status": "known",
+      "value": [
+        {
+          "muscle_id": "hamstrings",
+          "role": "working_contributor",
+          "references": [
+            {
+              "source_id": "anatomy-lower",
+              "locator": "fs-id2012638; fig-ch11_06_03"
+            }
+          ]
+        }
+      ],
+      "basis": "biomechanical_interpretation",
+      "references": [
+        {
+          "source_id": "anatomy-lower",
+          "locator": "fs-id2012638; fig-ch11_06_03"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Anatomical action plus defined execution; inferred roles, not exercise-trial validation. Selected contributors only, with no relative activation or hypertrophy ranking."
+    },
+    "laterality": {
+      "status": "known",
+      "value": {
+        "execution": "bilateral",
+        "record_sides": "combined"
+      },
+      "basis": "project_defined_variant",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        },
+        {
+          "source_id": "free-exercise-db",
+          "locator": "exercises/Seated_Leg_Curl.json"
+        }
+      ],
+      "review_status": "draft",
+      "notes": ""
+    },
+    "support": {
+      "status": "known",
+      "value": "Back, pelvis and thighs supported by the seated machine.",
+      "basis": "project_defined_variant",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        },
+        {
+          "source_id": "free-exercise-db",
+          "locator": "exercises/Seated_Leg_Curl.json"
+        }
+      ],
+      "review_status": "draft",
+      "notes": ""
+    },
+    "mechanics": {
+      "status": "known",
+      "value": "single_joint",
+      "basis": "coaching_classification",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Classification follows intended moving joints/holds, not absence of stabilizer activity."
+    },
+    "loading": {
+      "status": "known",
+      "value": {
+        "resistance_type": "external",
+        "load_convention": "device_setting",
+        "load_unit": "device_setting",
+        "primary_measure": "repetitions"
+      },
+      "basis": "project_defined_variant",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        },
+        {
+          "source_id": "free-exercise-db",
+          "locator": "exercises/Seated_Leg_Curl.json"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Record external load separately from body mass. Device settings/lever arms and band-like assistance are not interchangeable kilogram measures."
+    },
+    "coaching_cues": {
+      "status": "known",
+      "value": [
+        "Record device and adjustment settings.",
+        "Keep the thighs in the defined support position."
+      ],
+      "basis": "coaching_judgment",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        },
+        {
+          "source_id": "free-exercise-db",
+          "locator": "exercises/Seated_Leg_Curl.json"
+        }
+      ],
+      "review_status": "draft",
+      "notes": "Qualitative draft cues, not clinically validated precautions."
+    },
+    "prerequisites": {
+      "status": "known",
+      "value": [
+        "Establish the setup and chosen ROM before adding or changing resistance.",
+        "Confirm the intended execution with a coach if its definition is unfamiliar."
+      ],
+      "basis": "coaching_judgment",
+      "references": [
+        {
+          "source_id": "project-conventions",
+          "locator": "Characteristics of each exercise; Scientific grounding and annotation method"
+        }
+      ],
+      "review_status": "draft",
+      "notes": ""
+    },
+    "numeric_joint_rom": {
+      "status": "unknown",
+      "value": null,
+      "basis": "not_established",
+      "references": [],
+      "review_status": "draft",
+      "notes": "No reviewed numerical joint-angle endpoints for this corpus variant; use the textual execution definition."
+    },
+    "clinical_precautions": {
+      "status": "unknown",
+      "value": null,
+      "basis": "not_established",
+      "references": [],
+      "review_status": "draft",
+      "notes": "No exercise-specific clinical contraindication review completed. Unknown does not mean safe for every person."
+    },
+    "difficulty": {
+      "status": "unknown",
+      "value": null,
+      "basis": "not_established",
+      "references": [],
+      "review_status": "draft",
+      "notes": "No validated universal beginner/intermediate/expert rating assigned."
+    }
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null,
+    "notes": [
+      "Not merged with prone leg curls; the research comparison was a particular unilateral protocol, not automatic proof for this bilateral setup."
+    ]
+  },
+  "recommendation_eligible": false
+}

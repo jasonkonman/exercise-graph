@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "project-conventions",
+      "title": "Exercise Graph corpus definitions and coaching conventions",
+      "kind": "project_definition",
+      "location": "../.docs/requirements/00-exercise-graph.md",
+      "revision": "corpus-v0.1.0-draft",
+      "accessed": "2026-10-18",
+      "licence": "Project licence not selected",
+      "usage": "Original project definitions, descriptions, and qualitative coaching classifications; not empirical findings."
+    },
+    {
+      "id": "free-exercise-db",
+      "title": "Free Exercise DB candidate catalog",
+      "kind": "exercise_catalogue",
+      "location": "https://github.com/yuhonas/free-exercise-db/blob/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/dist/exercises.json",
+      "revision": "f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5",
+      "accessed": "2026-10-18",
+      "licence": "Upstream README declares Unlicense/public domain; upstream rights chain not independently established.",
+      "usage": "Reference IDs, names and original factual muscle labels only. No instructions or media imported. Catalog labels are unreviewed.",
+      "sha256": "5bb747e3fc658f095a60dcbf6d53c96627acdcc6ffb6fffde86f7e26995d40bf",
+      "publisher": "yuhonas/free-exercise-db contributors",
+      "licence_url": "https://github.com/yuhonas/free-exercise-db/blob/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/README.md"
+    },
+    {
+      "id": "anatomy-movement",
+      "title": "OpenStax Anatomy and Physiology 2e: Types of Body Movements",
+      "kind": "anatomy_reference",
+      "location": "https://github.com/openstax/osbooks-anatomy-physiology/blob/5ae32b3f4bc24ed003e91dc38bf47dba80751044/modules/m46398/index.cnxml",
+      "revision": "5ae32b3f4bc24ed003e91dc38bf47dba80751044",
+      "accessed": "2026-10-18",
+      "licence": "Repository LICENSE: CC BY-NC-SA 4.0",
+      "usage": "Reference for anatomical facts and terminology. No textbook prose, tables, or images redistributed; exercise interpretations and descriptions are project-authored drafts.",
+      "sha256": "b4e8e167fcb2b35b64cb31ebd5fce12f3fc31e0b0341b0d91d602971faa049f0",
+      "publisher": "OpenStax, Rice University",
+      "licence_url": "https://github.com/openstax/osbooks-anatomy-physiology/blob/5ae32b3f4bc24ed003e91dc38bf47dba80751044/LICENSE"
+    },
+    {
+      "id": "anatomy-roles",
+      "title": "OpenStax Anatomy and Physiology 2e: Interactions of Skeletal Muscles, Their Fascicle Arrangement, and Their Lever Systems",
+      "kind": "anatomy_reference",
+      "location": "https://github.com/openstax/osbooks-anatomy-physiology/blob/5ae32b3f4bc24ed003e91dc38bf47dba80751044/modules/m46487/index.cnxml",
+      "revision": "5ae32b3f4bc24ed003e91dc38bf47dba80751044",
+      "accessed": "2026-10-18",
+      "licence": "Repository LICENSE: CC BY-NC-SA 4.0",
+      "usage": "Reference for anatomical facts and terminology. No textbook prose, tables, or images redistributed; exercise interpretations and descriptions are project-authored drafts.",
+      "sha256": "60ae83c0a5ba867956e56a2570a998864d9a71467871cea589ae7109b176a597",
+      "publisher": "OpenStax, Rice University",
+      "licence_url": "https://github.com/openstax/osbooks-anatomy-physiology/blob/5ae32b3f4bc24ed003e91dc38bf47dba80751044/LICENSE"
+    },
+    {
+      "id": "anatomy-upper",
+      "title": "OpenStax Anatomy and Physiology 2e: Muscles of the Pectoral Girdle and Upper Limbs",
+      "kind": "anatomy_reference",
+      "location": "https://github.com/openstax/osbooks-anatomy-physiology/blob/5ae32b3f4bc24ed003e91dc38bf47dba80751044/modules/m46495/index.cnxml",
+      "revision": "5ae32b3f4bc24ed003e91dc38bf47dba80751044",
+      "accessed": "2026-10-18",
+      "licence": "Repository LICENSE: CC BY-NC-SA 4.0",
+      "usage": "Reference for anatomical facts and terminology. No textbook prose, tables, or images redistributed; exercise interpretations and descriptions are project-authored drafts.",
+      "sha256": "59f36cddc5fb885b1c1c5a82a3b6ada34bd08ac7d829113b0efa5a15f74bdb93",
+      "publisher": "OpenStax, Rice University",
+      "licence_url": "https://github.com/openstax/osbooks-anatomy-physiology/blob/5ae32b3f4bc24ed003e91dc38bf47dba80751044/LICENSE"
+    },
+    {
+      "id": "anatomy-lower",
+      "title": "OpenStax Anatomy and Physiology 2e: Appendicular Muscles of the Pelvic Girdle and Lower Limbs",
+      "kind": "anatomy_reference",
+      "location": "https://github.com/openstax/osbooks-anatomy-physiology/blob/5ae32b3f4bc24ed003e91dc38bf47dba80751044/modules/m46482/index.cnxml",
+      "revision": "5ae32b3f4bc24ed003e91dc38bf47dba80751044",
+      "accessed": "2026-10-18",
+      "licence": "Repository LICENSE: CC BY-NC-SA 4.0",
+      "usage": "Reference for anatomical facts and terminology. No textbook prose, tables, or images redistributed; exercise interpretations and descriptions are project-authored drafts.",
+      "sha256": "e1f977e7eb556d989fd0fb54928800b8687389133780f9fe25481e9f257a6c11",
+      "publisher": "OpenStax, Rice University",
+      "licence_url": "https://github.com/openstax/osbooks-anatomy-physiology/blob/5ae32b3f4bc24ed003e91dc38bf47dba80751044/LICENSE"
+    },
+    {
+      "id": "anatomy-trunk",
+      "title": "OpenStax Anatomy and Physiology 2e: Axial Muscles of the Abdominal Wall, and Thorax",
+      "kind": "anatomy_reference",
+      "location": "https://github.com/openstax/osbooks-anatomy-physiology/blob/5ae32b3f4bc24ed003e91dc38bf47dba80751044/modules/m46485/index.cnxml",
+      "revision": "5ae32b3f4bc24ed003e91dc38bf47dba80751044",
+      "accessed": "2026-10-18",
+      "licence": "Repository LICENSE: CC BY-NC-SA 4.0",
+      "usage": "Reference for anatomical facts and terminology. No textbook prose, tables, or images redistributed; exercise interpretations and descriptions are project-authored drafts.",
+      "sha256": "59d9878560ebcacc2f28ab4c087670adb3997d5cb0de4eb1c7d8d3db6121a233",
+      "publisher": "OpenStax, Rice University",
+      "licence_url": "https://github.com/openstax/osbooks-anatomy-physiology/blob/5ae32b3f4bc24ed003e91dc38bf47dba80751044/LICENSE"
+    },
+    {
+      "id": "anatomy-back",
+      "title": "OpenStax Anatomy and Physiology 2e: Axial Muscles of the Head, Neck, and Back",
+      "kind": "anatomy_reference",
+      "location": "https://github.com/openstax/osbooks-anatomy-physiology/blob/5ae32b3f4bc24ed003e91dc38bf47dba80751044/modules/m46484/index.cnxml",
+      "revision": "5ae32b3f4bc24ed003e91dc38bf47dba80751044",
+      "accessed": "2026-10-18",
+      "licence": "Repository LICENSE: CC BY-NC-SA 4.0",
+      "usage": "Reference for anatomical facts and terminology. No textbook prose, tables, or images redistributed; exercise interpretations and descriptions are project-authored drafts.",
+      "sha256": "18e63f6287d7e996d2e8bcc20c6e0bc42761581326ccd38744cd47ada049a7da",
+      "publisher": "OpenStax, Rice University",
+      "licence_url": "https://github.com/openstax/osbooks-anatomy-physiology/blob/5ae32b3f4bc24ed003e91dc38bf47dba80751044/LICENSE"
+    }
+  ]
+}
