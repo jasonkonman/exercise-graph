@@ -1,0 +1,708 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-10-18",
+  "scope": "Generally healthy adults, general strength/hypertrophy resistance training; source-specific exceptions are explicit.",
+  "review_method": "AI-assisted focused desk review; source methods/results/limitations inspected when accessible; no formal independent certainty grading or trial-level reanalysis.",
+  "status": "Initial synthesis complete; independent human scientific/coaching review pending.",
+  "policies_enabled": false,
+  "claims": [
+    {
+      "claim_id": "C01",
+      "statement": "Multiple resistance-training prescriptions improve strength and muscle size compared with no resistance training.",
+      "outcome": "strength; hypertrophy",
+      "population_and_context": "Generally healthy adults; most intervention evidence lasts weeks to months.",
+      "intervention_comparator": "Resistance training versus non-exercise control.",
+      "assessment": "Convergent within the studied scope; exact individual response is not predicted.",
+      "formal_grade": null,
+      "source_links": [
+        {
+          "source_id": "S01",
+          "relationship": "supports",
+          "locator": "Methods: Eligibility Criteria; Methodological Quality Assessment and Evidence Synthesis; Overlap of Papers; Results: Tables 4 and 6; Discussion paragraphs on specificity, dose, failure, and limitations."
+        },
+        {
+          "source_id": "S02",
+          "relationship": "supports",
+          "locator": "Methods: Eligibility criteria; Condition coding framework; Results: Comparing RTxs; Discussion; Limitations."
+        }
+      ],
+      "limitations": [
+        "Supervised/novice samples are common; clinical populations and elite performance need separate evidence.",
+        "An imprecise estimate for a sparse intervention node is not evidence that the intervention never works."
+      ],
+      "implementation_implication": "Offer feasible coach-reviewed programmes rather than rejecting every plan that differs from a highest-ranked research condition.",
+      "estimates": [],
+      "review_status": "draft_for_independent_human_review",
+      "automatic_policy_eligible": false
+    },
+    {
+      "claim_id": "C02",
+      "statement": "Higher-load training generally favors maximal dynamic-strength gains; hypertrophy findings do not establish one universally superior load range.",
+      "outcome": "maximal dynamic strength; hypertrophy",
+      "population_and_context": "Healthy adults; specificity to the exercise and strength test matters.",
+      "intervention_comparator": "Higher versus lower relative loads, interpreted with sets, effort, and frequency.",
+      "assessment": "Outcome-specific, supported direction; no universal exclusive repetition zone.",
+      "formal_grade": null,
+      "source_links": [
+        {
+          "source_id": "S01",
+          "relationship": "supports",
+          "locator": "Methods: Eligibility Criteria; Methodological Quality Assessment and Evidence Synthesis; Overlap of Papers; Results: Tables 4 and 6; Discussion paragraphs on specificity, dose, failure, and limitations."
+        },
+        {
+          "source_id": "S02",
+          "relationship": "supports",
+          "locator": "Methods: Eligibility criteria; Condition coding framework; Results: Comparing RTxs; Discussion; Limitations."
+        }
+      ],
+      "limitations": [
+        "Broad category cutoffs do not define an individual optimum.",
+        "Network ranks are not probabilities of personal success; non-significant differences are not equivalence."
+      ],
+      "implementation_implication": "Separate goals, relative load, repetitions, effort, and test identity; do not hardcode one bodybuilding repetition range or a universal repetitions-to-percent-1RM conversion.",
+      "estimates": [],
+      "review_status": "draft_for_independent_human_review",
+      "automatic_policy_eligible": false
+    },
+    {
+      "claim_id": "C03",
+      "statement": "Higher weekly set volume tends to increase hypertrophy and strength across studied ranges, with diminishing returns and different dose-response patterns by outcome.",
+      "outcome": "hypertrophy; strength",
+      "population_and_context": "Evidence mostly in healthy young adults; newer dose analysis is predominantly male.",
+      "intervention_comparator": "Higher versus lower weekly sets, with attention to direct and indirect exercise contributions.",
+      "assessment": "Convergent direction; exact dose, ceiling, and indirect-set conversion remain uncertain.",
+      "formal_grade": null,
+      "source_links": [
+        {
+          "source_id": "S01",
+          "relationship": "supports",
+          "locator": "Methods: Eligibility Criteria; Methodological Quality Assessment and Evidence Synthesis; Overlap of Papers; Results: Tables 4 and 6; Discussion paragraphs on specificity, dose, failure, and limitations."
+        },
+        {
+          "source_id": "S03",
+          "relationship": "qualifies",
+          "locator": "Abstract: Methods; Results; Conclusions."
+        },
+        {
+          "source_id": "S04",
+          "relationship": "historical_support",
+          "locator": "Abstract; Europe PMC commentCorrectionList."
+        }
+      ],
+      "limitations": [
+        "S03 and S04 were abstract-only.",
+        "Meta-regression and overlapping trials do not establish a causal personal dose-response curve.",
+        "The 0.5 indirect-set weight in S03 is a modeling convention, not a universal biological fact."
+      ],
+      "implementation_implication": "Track sets by exercise, muscle, week, and context; retain direct/indirect contribution assumptions as versioned policy, not an anatomical certainty. Do not force a hard minimum, maximum, or linear expected-growth formula.",
+      "estimates": [],
+      "review_status": "draft_for_independent_human_review",
+      "automatic_policy_eligible": false
+    },
+    {
+      "claim_id": "C04",
+      "statement": "When weekly volume is equated, increasing frequency alone has not shown a clear hypertrophy advantage; strength and programme feasibility may respond differently.",
+      "outcome": "hypertrophy; strength; scheduling",
+      "population_and_context": "Healthy adults; volume-equated comparisons are distinct from programmes that add more total work.",
+      "intervention_comparator": "Higher versus lower sessions per week at comparable total weekly volume.",
+      "assessment": "Context-dependent; distinguishes general participation guidance from isolated frequency effects.",
+      "formal_grade": null,
+      "source_links": [
+        {
+          "source_id": "S01",
+          "relationship": "supports",
+          "locator": "Methods: Eligibility Criteria; Methodological Quality Assessment and Evidence Synthesis; Overlap of Papers; Results: Tables 4 and 6; Discussion paragraphs on specificity, dose, failure, and limitations."
+        },
+        {
+          "source_id": "S22",
+          "relationship": "supports",
+          "locator": "Abstract: volume-equated and non-volume-equated analyses; conclusion."
+        },
+        {
+          "source_id": "S03",
+          "relationship": "qualifies",
+          "locator": "Abstract: Methods; Results; Conclusions."
+        }
+      ],
+      "limitations": [
+        "S22 and S03 were abstract-only; related syntheses share trials.",
+        "An ACSM at-least-twice-weekly participation recommendation is not proof that fewer sessions cannot help or that every muscle must follow one schedule."
+      ],
+      "implementation_implication": "Store weekly volume and exposure frequency separately; schedule around goals, availability, and tolerability rather than treating frequency as an independent guaranteed hypertrophy multiplier.",
+      "estimates": [],
+      "review_status": "draft_for_independent_human_review",
+      "automatic_policy_eligible": false
+    },
+    {
+      "claim_id": "C05",
+      "statement": "Momentary muscular failure is not required for gains; proximity to failure may matter for hypertrophy without establishing an exact universally optimal RIR.",
+      "outcome": "strength; hypertrophy",
+      "population_and_context": "Mostly healthy young-adult traditional resistance training; newer review includes more varied ages/training levels.",
+      "intervention_comparator": "Failure versus non-failure and exploratory estimated-RIR analyses.",
+      "assessment": "Convergent against a failure requirement; exact proximity effects remain qualified.",
+      "formal_grade": null,
+      "source_links": [
+        {
+          "source_id": "S01",
+          "relationship": "supports",
+          "locator": "Methods: Eligibility Criteria; Methodological Quality Assessment and Evidence Synthesis; Overlap of Papers; Results: Tables 4 and 6; Discussion paragraphs on specificity, dose, failure, and limitations."
+        },
+        {
+          "source_id": "S05",
+          "relationship": "supports",
+          "locator": "Results: Study characteristics; Discussion: Muscle hypertrophy; Generalizability of the results; Methodological quality and limitations."
+        },
+        {
+          "source_id": "S07",
+          "relationship": "qualifies",
+          "locator": "Results: Meta-analysis Results; Discussion: Practical Application of Key Findings; Limitations; Conclusions."
+        },
+        {
+          "source_id": "S06",
+          "relationship": "qualifies",
+          "locator": "Abstract: Objective; Results; Conclusions."
+        },
+        {
+          "source_id": "S23",
+          "relationship": "supports",
+          "locator": "Results: Participant characteristics; Training protocol; GRADE assessment; Discussion: Limitations; Conclusions."
+        }
+      ],
+      "limitations": [
+        "Definitions of failure, volume matching, and actual RIR differ.",
+        "S06 uses retrospectively estimated RIR and was abstract-only.",
+        "S05 trained-participant hypertrophy subgroup was only two studies; neither pooled null results nor a small subgroup settle all contexts."
+      ],
+      "implementation_implication": "Record actual set-termination reason and the exertion scale. Permit non-failure work; do not force failure every set or declare exactly 2-3 RIR universally optimal.",
+      "estimates": [
+        {
+          "source_id": "S05",
+          "outcome": "hypertrophy",
+          "measure": "standardized_mean_difference",
+          "point": 0.22,
+          "interval": {
+            "level": 0.95,
+            "kind": "confidence",
+            "lower": -0.11,
+            "upper": 0.55
+          },
+          "direction": "Positive favors failure; interval includes zero.",
+          "notes": ""
+        },
+        {
+          "source_id": "S07",
+          "outcome": "hypertrophy: momentary failure subgroup",
+          "measure": "standardized_mean_difference",
+          "point": 0.12,
+          "interval": {
+            "level": 0.95,
+            "kind": "confidence",
+            "lower": -0.13,
+            "upper": 0.37
+          },
+          "direction": "Positive favors momentary failure; interval includes zero.",
+          "notes": ""
+        },
+        {
+          "source_id": "S23",
+          "outcome": "dynamic strength",
+          "measure": "standardized_mean_difference",
+          "point": 0.24,
+          "interval": {
+            "level": 0.95,
+            "kind": "confidence",
+            "lower": 0.06,
+            "upper": 0.42
+          },
+          "direction": "Positive favors non-failure; protocol/volume differences limit generalization.",
+          "notes": ""
+        }
+      ],
+      "review_status": "draft_for_independent_human_review",
+      "automatic_policy_eligible": false
+    },
+    {
+      "claim_id": "C06",
+      "statement": "Strength gains are exercise/equipment-specific; existing machine-versus-free-weight comparisons do not establish a general hypertrophy winner.",
+      "outcome": "task-specific strength; hypertrophy",
+      "population_and_context": "Adults 18-60 without chronic disease/injury; short-term trials and limited muscle-size measurements.",
+      "intervention_comparator": "Free-weight versus fixed-path machine training.",
+      "assessment": "Context-dependent; no universal superiority or equivalence claim.",
+      "formal_grade": null,
+      "source_links": [
+        {
+          "source_id": "S08",
+          "relationship": "supports",
+          "locator": "Methods: Inclusion criteria; Results: Characteristics of the included studies; The effect of free-weight- versus machine-based training on hypertrophy; Weaknesses."
+        },
+        {
+          "source_id": "S01",
+          "relationship": "qualifies",
+          "locator": "Methods: Eligibility Criteria; Methodological Quality Assessment and Evidence Synthesis; Overlap of Papers; Results: Tables 4 and 6; Discussion paragraphs on specificity, dose, failure, and limitations."
+        }
+      ],
+      "limitations": [
+        "Hypertrophy evidence is sparse and measurement methods differ.",
+        "This comparison excludes some equipment types and does not validate every proposed substitution."
+      ],
+      "implementation_implication": "Keep apparatus, execution variant, and strength-test identity. A substitution is a contextual candidate, not equal kilograms, identical skill demands, or guaranteed equal outcome.",
+      "estimates": [],
+      "review_status": "draft_for_independent_human_review",
+      "automatic_policy_eligible": false
+    },
+    {
+      "claim_id": "C07",
+      "statement": "Exercises prioritized earlier in a session tend to gain more task-specific strength; order has not shown a clear general hypertrophy effect.",
+      "outcome": "exercise-specific strength; hypertrophy",
+      "population_and_context": "Resistance-training studies of multi-/single-joint exercise order.",
+      "intervention_comparator": "An exercise placed earlier versus later in a session.",
+      "assessment": "Supported for prioritization, limited for universal sequencing rules.",
+      "formal_grade": null,
+      "source_links": [
+        {
+          "source_id": "S10",
+          "relationship": "supports",
+          "locator": "Abstract: Methods and results; concluding sentences."
+        },
+        {
+          "source_id": "S01",
+          "relationship": "supports",
+          "locator": "Methods: Eligibility Criteria; Methodological Quality Assessment and Evidence Synthesis; Overlap of Papers; Results: Tables 4 and 6; Discussion paragraphs on specificity, dose, failure, and limitations."
+        }
+      ],
+      "limitations": [
+        "S10 was abstract-only and included 11 studies.",
+        "No detected hypertrophy difference is not equivalence between arbitrary circuits."
+      ],
+      "implementation_implication": "Represent coach priorities and fatigue/rest constraints. Do not require compound exercises before isolation exercises regardless of the target.",
+      "estimates": [],
+      "review_status": "draft_for_independent_human_review",
+      "automatic_policy_eligible": false
+    },
+    {
+      "claim_id": "C08",
+      "statement": "Very short rests may modestly reduce hypertrophy relative to longer rests, but available evidence does not establish one universally optimal rest duration.",
+      "outcome": "hypertrophy",
+      "population_and_context": "9 studies; mostly young/untrained adults; 5-10 weeks, mainly limb muscles.",
+      "intervention_comparator": "Short versus longer inter-set rest periods.",
+      "assessment": "Limited/uncertain small effects; guidance and topic review are not identical in granularity.",
+      "formal_grade": null,
+      "source_links": [
+        {
+          "source_id": "S09",
+          "relationship": "supports",
+          "locator": "Results: Study characteristics; Meta-analysis of controlled effect sizes; Discussion: Limitations; Conclusion."
+        },
+        {
+          "source_id": "S01",
+          "relationship": "qualifies",
+          "locator": "Methods: Eligibility Criteria; Methodological Quality Assessment and Evidence Synthesis; Overlap of Papers; Results: Tables 4 and 6; Discussion paragraphs on specificity, dose, failure, and limitations."
+        }
+      ],
+      "limitations": [
+        "Between-group intervals are wide and include zero.",
+        "Lack of detected differences beyond 90 seconds does not establish an upper limit or prove longer rests useless."
+      ],
+      "implementation_implication": "Store rest and within-circuit recovery explicitly. Allow enough recovery for planned performance; do not make 30-60 seconds mandatory for hypertrophy.",
+      "estimates": [
+        {
+          "source_id": "S09",
+          "outcome": "arm hypertrophy",
+          "measure": "standardized_mean_difference",
+          "point": 0.13,
+          "interval": {
+            "level": 0.95,
+            "kind": "credible",
+            "lower": -0.27,
+            "upper": 0.51
+          },
+          "direction": "Positive favors longer rest; univariate controlled comparison.",
+          "notes": ""
+        },
+        {
+          "source_id": "S09",
+          "outcome": "thigh hypertrophy",
+          "measure": "standardized_mean_difference",
+          "point": 0.17,
+          "interval": {
+            "level": 0.95,
+            "kind": "credible",
+            "lower": -0.13,
+            "upper": 0.43
+          },
+          "direction": "Positive favors longer rest; univariate controlled comparison.",
+          "notes": ""
+        }
+      ],
+      "review_status": "draft_for_independent_human_review",
+      "automatic_policy_eligible": false
+    },
+    {
+      "claim_id": "C09",
+      "statement": "Supersets can improve time efficiency, while evidence is insufficient to declare arbitrary circuit pairings superior or chronically equivalent to traditional sets.",
+      "outcome": "training efficiency; chronic strength/hypertrophy",
+      "population_and_context": "19 studies/313 participants in the review; mainly young trained men; some mixed/out-of-scope samples.",
+      "intervention_comparator": "Two-exercise supersets versus traditional sets, with pairing configuration specified.",
+      "assessment": "Supported acute time-efficiency option with substantial chronic-evidence limitations.",
+      "formal_grade": null,
+      "source_links": [
+        {
+          "source_id": "S12",
+          "relationship": "supports_with_limits",
+          "locator": "Results: Study Characteristics; Risk of Bias Assessment; Meta-analysis: Acute Effects and Chronic Variables; Discussion: Limitations; Table 5."
+        }
+      ],
+      "limitations": [
+        "Only 2 studies contributed the efficiency estimate, 3 chronic strength studies and 2 chronic hypertrophy studies.",
+        "Intervals are wide; increased exertion and configuration-dependent volume effects matter.",
+        "Not direct evidence for arbitrary 3-5 exercise circuits or long-term superiority."
+      ],
+      "implementation_implication": "Store pairing type, transition/rest times, work completed, and purpose. Label time efficiency separately from training-outcome claims; keep coach-reviewed contextual pairings.",
+      "estimates": [
+        {
+          "source_id": "S12",
+          "outcome": "training efficiency",
+          "measure": "standardized_mean_difference",
+          "point": 1.74,
+          "interval": {
+            "level": 0.95,
+            "kind": "confidence",
+            "lower": 0.46,
+            "upper": 3.01
+          },
+          "direction": "Positive favors supersets; 2 studies; Table 2.",
+          "notes": ""
+        },
+        {
+          "source_id": "S12",
+          "outcome": "chronic maximal strength",
+          "measure": "standardized_mean_difference",
+          "point": 0.1,
+          "interval": {
+            "level": 0.95,
+            "kind": "confidence",
+            "lower": -0.4,
+            "upper": 0.6
+          },
+          "direction": "Positive favors supersets; 3 studies; Table 5.",
+          "notes": ""
+        },
+        {
+          "source_id": "S12",
+          "outcome": "chronic muscle cross-sectional area",
+          "measure": "standardized_mean_difference",
+          "point": -0.05,
+          "interval": {
+            "level": 0.95,
+            "kind": "confidence",
+            "lower": -0.63,
+            "upper": 0.54
+          },
+          "direction": "Positive favors supersets; 2 studies; Table 5.",
+          "notes": ""
+        }
+      ],
+      "review_status": "draft_for_independent_human_review",
+      "automatic_policy_eligible": false
+    },
+    {
+      "claim_id": "C10",
+      "statement": "Evidence does not justify constant random exercise rotation; systematic variation may affect regional adaptations and task-specific strength.",
+      "outcome": "regional hypertrophy; strength",
+      "population_and_context": "S11 includes 8 studies/241 participants, all young men.",
+      "intervention_comparator": "Fixed versus systematically or randomly varied exercise selection.",
+      "assessment": "Limited, heterogeneous evidence; no validated universal rotation schedule.",
+      "formal_grade": null,
+      "source_links": [
+        {
+          "source_id": "S11",
+          "relationship": "supports_with_limits",
+          "locator": "Abstract: study selection, population, and conclusions."
+        },
+        {
+          "source_id": "S01",
+          "relationship": "qualifies",
+          "locator": "Methods: Eligibility Criteria; Methodological Quality Assessment and Evidence Synthesis; Overlap of Papers; Results: Tables 4 and 6; Discussion paragraphs on specificity, dose, failure, and limitations."
+        }
+      ],
+      "limitations": [
+        "S11 was abstract-only; ACSM finds insufficient/uncertain evidence on varied selection for some outcomes.",
+        "A proposed variation mechanism is not a validated novelty requirement."
+      ],
+      "implementation_implication": "Grow the catalog through useful reviewed additions; preserve programme continuity and measurement comparability rather than requiring a new exercise every session.",
+      "estimates": [],
+      "review_status": "draft_for_independent_human_review",
+      "automatic_policy_eligible": false
+    },
+    {
+      "claim_id": "C11",
+      "statement": "ROM and muscle-length effects depend on muscle, position, resistance profile, and measured outcome; a universal longer-is-better ranking is not established.",
+      "outcome": "hypertrophy; regional size; fascicle architecture; strength",
+      "population_and_context": "Sparse and heterogeneous adult studies; many young/untrained, muscle-specific samples.",
+      "intervention_comparator": "Full versus partial ROM and longer- versus shorter-muscle-length training.",
+      "assessment": "Emerging/context-dependent evidence, with different syntheses asking different questions.",
+      "formal_grade": null,
+      "source_links": [
+        {
+          "source_id": "S01",
+          "relationship": "supports_with_limits",
+          "locator": "Methods: Eligibility Criteria; Methodological Quality Assessment and Evidence Synthesis; Overlap of Papers; Results: Tables 4 and 6; Discussion paragraphs on specificity, dose, failure, and limitations."
+        },
+        {
+          "source_id": "S18",
+          "relationship": "historical_support",
+          "locator": "Results; Discussion; Conclusion."
+        },
+        {
+          "source_id": "S17",
+          "relationship": "qualifies",
+          "locator": "Abstract: methods, regional effect estimates, and caution about contrast size."
+        },
+        {
+          "source_id": "S19",
+          "relationship": "qualifies",
+          "locator": "Abstract; Discussion; Conclusion."
+        },
+        {
+          "source_id": "S21",
+          "relationship": "hypothesis_context",
+          "locator": "Abstract; Conclusions; exercise/ROM comparisons in the article."
+        }
+      ],
+      "limitations": [
+        "S17 was abstract-only and compared modest mean-length contrasts.",
+        "S19 uses largely extrapolated fascicle measurements and no direct serial-sarcomere counts.",
+        "S21 is unstructured narrative interpretation, not higher-certainty pooled evidence."
+      ],
+      "implementation_implication": "Record ROM endpoints, joint positions and equipment/torque context when known. Keep strength ROM guidance separate from hypertrophy/architecture claims; do not infer universal maximal-depth, injury, or stretch-ranking rules.",
+      "estimates": [],
+      "review_status": "draft_for_independent_human_review",
+      "automatic_policy_eligible": false
+    },
+    {
+      "claim_id": "C12",
+      "statement": "RIR-based RPE provides a defined subjective measure, but RIR predictions are imperfect and context-dependent.",
+      "outcome": "exertion measurement; RIR accuracy",
+      "population_and_context": "S14: 29 experienced/novice squatters; S15: exploratory meta-analysis of 12 studies/414 participants.",
+      "intervention_comparator": "Reported/predicted repetitions remaining versus repetitions actually possible to a defined endpoint.",
+      "assessment": "Useful measurement concept with substantial prediction uncertainty.",
+      "formal_grade": null,
+      "source_links": [
+        {
+          "source_id": "S14",
+          "relationship": "supports",
+          "locator": "Abstract: sample, protocol, RPE/RIR mapping, and conclusions."
+        },
+        {
+          "source_id": "S15",
+          "relationship": "qualifies",
+          "locator": "Abstract: Search and inclusion; Results; Conclusions."
+        }
+      ],
+      "limitations": [
+        "Both sources were abstract-only.",
+        "Very high heterogeneity; average error is not an individual correction.",
+        "Experience did not reliably eliminate error in the pooled evidence."
+      ],
+      "implementation_implication": "Store the scale definition, exercise, timing, and raw report. Distinguish RIR, RPE, pain, and pre-session energy; do not convert a general readiness score into an exact load multiplier.",
+      "estimates": [
+        {
+          "source_id": "S15",
+          "outcome": "RIR prediction error",
+          "measure": "repetitions_underpredicted",
+          "point": 0.95,
+          "interval": {
+            "level": 0.95,
+            "kind": "confidence",
+            "lower": 0.17,
+            "upper": 1.73
+          },
+          "heterogeneity_I2_percent": 97.9,
+          "notes": "Average across heterogeneous studies; not a calibration constant for individuals."
+        }
+      ],
+      "review_status": "draft_for_independent_human_review",
+      "automatic_policy_eligible": false
+    },
+    {
+      "claim_id": "C13",
+      "statement": "The selected autoregulation literature does not validate a generic energy-score-to-kilograms algorithm or a universally superior autoregulation method.",
+      "outcome": "maximal strength; individual load selection",
+      "population_and_context": "S16 mixes trained adults/adolescents and squat/bench tasks; ACSM scope is healthy adults.",
+      "intervention_comparator": "Autoregulated progressive, velocity-based, RPE-based, or percentage-based programmes.",
+      "assessment": "Insufficient for the proposed universal automation; specific methods warrant further targeted review.",
+      "formal_grade": null,
+      "source_links": [
+        {
+          "source_id": "S01",
+          "relationship": "supports_uncertainty",
+          "locator": "Methods: Eligibility Criteria; Methodological Quality Assessment and Evidence Synthesis; Overlap of Papers; Results: Tables 4 and 6; Discussion paragraphs on specificity, dose, failure, and limitations."
+        },
+        {
+          "source_id": "S16",
+          "relationship": "requires_caution",
+          "locator": "Methods: Study selection and eligibility criteria; Results: Characteristics of the included studies; NMA of back squat 1RM; NMA of bench press 1RM; Discussion."
+        }
+      ],
+      "limitations": [
+        "S16 includes ages 10-30, sparse method comparisons, reporting inconsistencies, and intervals crossing zero.",
+        "No individual calibrated energy-to-load relation was established by this selected body; this is not a claim that every possible autoregulation method lacks evidence."
+      ],
+      "implementation_implication": "Defer autonomous kilogram predictions. Collect comparable exercise-specific history and coach decisions; evaluate a bounded policy before enabling it.",
+      "estimates": [],
+      "review_status": "draft_for_independent_human_review",
+      "automatic_policy_eligible": false
+    },
+    {
+      "claim_id": "C14",
+      "statement": "Acute surface-EMG amplitude alone cannot establish a generally valid ranking of long-term strength/hypertrophy or a percentage contribution to growth.",
+      "outcome": "measurement validity; long-term adaptation inference",
+      "population_and_context": "Methodological review, not a training-outcome trial.",
+      "intervention_comparator": "Acute EMG measurements versus unmeasured longitudinal outcomes.",
+      "assessment": "Measurement/inference boundary supported by methodological analysis.",
+      "formal_grade": null,
+      "source_links": [
+        {
+          "source_id": "S13",
+          "relationship": "supports",
+          "locator": "What conclusions cannot be drawn from sEMG studies?: Longitudinal outcomes; Interim summary; Conclusions."
+        }
+      ],
+      "limitations": [
+        "EMG can still inform carefully specified excitation questions; electrode placement and normalization matter.",
+        "The source does not prohibit all use of EMG or prove every acute measure is useless."
+      ],
+      "implementation_implication": "Keep EMG as a distinct measurement type. Do not populate hypertrophy-efficiency weights or growth percentages directly from activation charts.",
+      "estimates": [],
+      "review_status": "draft_for_independent_human_review",
+      "automatic_policy_eligible": false
+    },
+    {
+      "claim_id": "C15",
+      "statement": "In one 12-week study, seated leg curls produced greater whole-hamstring volume growth than prone leg curls; this is a scoped variant claim.",
+      "outcome": "MRI whole-hamstring volume",
+      "population_and_context": "20 young healthy adults without systematic resistance training in the preceding 12 months; within-participant randomized legs.",
+      "intervention_comparator": "Seated versus prone machine leg curl; knee ROM 0-90 degrees with different hip positions.",
+      "assessment": "Direct but small, exercise-/protocol-specific primary evidence.",
+      "formal_grade": null,
+      "source_links": [
+        {
+          "source_id": "S24",
+          "relationship": "supports_scoped_comparison",
+          "locator": "Abstract: Methods and Results, part 1; Discussion: Limitations."
+        }
+      ],
+      "limitations": [
+        "Different apparatus/hip positions form part of the tested intervention.",
+        "Does not establish a universal exercise winner, load conversion, or clinical strain-injury prevention."
+      ],
+      "implementation_implication": "Keep seated and prone leg curls as distinct variants; attach this study to a scoped comparative claim rather than a timeless BEST_EXERCISE edge.",
+      "estimates": [
+        {
+          "source_id": "S24",
+          "measure": "group_mean_percent_change_from_baseline",
+          "outcome": "MRI whole-hamstring volume",
+          "conditions": {
+            "seated": 14,
+            "prone": 9
+          },
+          "interval": null,
+          "notes": "Rounded group changes as reported in the abstract; not individual forecasts or equivalence bounds."
+        }
+      ],
+      "review_status": "draft_for_independent_human_review",
+      "automatic_policy_eligible": false
+    },
+    {
+      "claim_id": "C16",
+      "statement": "One 12-week cable-extension study found greater triceps growth with the overhead arm position than the neutral position despite lower lifted loads.",
+      "outcome": "MRI triceps volume",
+      "population_and_context": "21 adults; within-participant arm comparison.",
+      "intervention_comparator": "Overhead versus neutral-arm cable elbow extension at the studied ROM and protocol.",
+      "assessment": "Direct but small primary study; abstract-only access limits appraisal.",
+      "formal_grade": null,
+      "source_links": [
+        {
+          "source_id": "S25",
+          "relationship": "supports_scoped_comparison",
+          "locator": "Abstract: protocol, MRI-measured muscle volume results, and limitations of scope."
+        }
+      ],
+      "limitations": [
+        "Do not generalize to all implements, populations, or ROMs.",
+        "The tested progression schedule is not independently validated as a universal rule.",
+        "Lower kilograms do not establish lower injury risk or a load-conversion formula."
+      ],
+      "implementation_implication": "Preserve shoulder/arm position and apparatus in exercise identity. Attach study-specific outcomes to variants; keep per-variant performance records separate.",
+      "estimates": [
+        {
+          "source_id": "S25",
+          "measure": "group_mean_percent_change_from_baseline",
+          "outcome": "MRI whole-triceps volume",
+          "conditions": {
+            "overhead": 19.9,
+            "neutral": 13.9
+          },
+          "interval": null,
+          "notes": "Reported abstract values; no uncertainty interval supplied here; not a forecast."
+        }
+      ],
+      "review_status": "draft_for_independent_human_review",
+      "automatic_policy_eligible": false
+    },
+    {
+      "claim_id": "C17",
+      "statement": "Exercise labels and equipment alone do not fully describe a training stimulus; resistance-exercise definitions themselves are not uniform.",
+      "outcome": "classification and evidence applicability",
+      "population_and_context": "Conceptual/narrative definitions review.",
+      "intervention_comparator": "Different operational definitions of resistance exercise/training.",
+      "assessment": "Conceptual context, not a validated universal ontology.",
+      "formal_grade": null,
+      "source_links": [
+        {
+          "source_id": "S20",
+          "relationship": "supports_conceptual_context",
+          "locator": "Definitional inconsistencies; Proposing a new framework with remaining gaps."
+        }
+      ],
+      "limitations": [
+        "The proposed definition is not a consensus or a quantitative classification threshold."
+      ],
+      "implementation_implication": "Store execution, loading convention, effort, duration, and training context alongside names. Keep coaching movement-pattern categories explicit and versioned rather than claiming a scientifically universal taxonomy.",
+      "estimates": [],
+      "review_status": "draft_for_independent_human_review",
+      "automatic_policy_eligible": false
+    },
+    {
+      "claim_id": "C18",
+      "statement": "Progression should reflect the person, exercise, and goal; the reviewed evidence does not establish one mandatory load increase for every session.",
+      "outcome": "continued adaptation; programme progression",
+      "population_and_context": "Healthy adult guidance and small exercise-specific protocols.",
+      "intervention_comparator": "Progressive adjustments versus maintaining a programme; different ways of increasing stimulus.",
+      "assessment": "General principle plus context-dependent implementation; no universal numeric algorithm established.",
+      "formal_grade": null,
+      "source_links": [
+        {
+          "source_id": "S01",
+          "relationship": "supports_with_limits",
+          "locator": "Methods: Eligibility Criteria; Methodological Quality Assessment and Evidence Synthesis; Overlap of Papers; Results: Tables 4 and 6; Discussion paragraphs on specificity, dose, failure, and limitations."
+        },
+        {
+          "source_id": "S25",
+          "relationship": "protocol_example_only",
+          "locator": "Abstract: protocol, MRI-measured muscle volume results, and limitations of scope."
+        }
+      ],
+      "limitations": [
+        "Initial benefits can occur without automatic progression every session.",
+        "A study using a particular percentage increase does not test that increase against every alternative."
+      ],
+      "implementation_implication": "Record progression triggers, goals, equipment increments, performance, exertion and coach overrides. Keep any initial numeric progression policy explicitly versioned and awaiting human review.",
+      "estimates": [],
+      "review_status": "draft_for_independent_human_review",
+      "automatic_policy_eligible": false
+    }
+  ],
+  "overlap_warning": "Related reviews reuse primary studies. Source counts, participants, and effect estimates must not be pooled as independent replications.",
+  "interpretation_warning": "A non-significant difference is not proof of equivalence. SMDs, ranking metrics, quality scores, and aggregate dose-response curves are not individual outcome probabilities."
+}

@@ -30,15 +30,19 @@ including an actual exercise dataset, on the research date. The source list reco
 the inspected revisions. PostgreSQL findings were checked in its official source
 documentation; no database benchmark was run.
 
-The initial scientific retrieval attempts were blocked by the network proxy.
-Access was subsequently rechecked successfully through Europe PMC: the Currier
-article record, abstract, and open-access full-text XML were retrieved. Its DOI,
-title, year, PMID `37414459`, and PMCID `PMC10579494` were confirmed from the record.
-Retrieval does not constitute critical appraisal. The scientific references below
-remain a **candidate reading list**, not a reviewed body of evidence. Their
-findings, applicability, and current status still need assessment. This document
-is a technical construction proposal and a literature-review protocol, not a
-completed scientific review.
+The initial scientific retrieval attempts were blocked by the network proxy;
+access subsequently worked through Europe PMC. A [focused exercise-science
+review](exercise-science-review.md) is now complete as an initial AI-assisted
+desk review: 15 accessible full texts had relevant sections inspected, 10 further
+sources were abstract-only, and one commentary was metadata-only. The source and
+claim records preserve these differences. Independent human scientific/coaching
+verification remains pending; no prescribing policies have been enabled.
+
+The review found a **2026 ACSM position stand** that explicitly updates the 2009
+guidance. Use it as the current guidance anchor, together with newer topic
+literature, rather than treating the original candidate list below as current
+guidance. This document remains a construction/persistence proposal; the linked
+review contains the scientific findings, limitations, and implementation effects.
 
 Access additions for `www.ebi.ac.uk`, `pubmed.ncbi.nlm.nih.gov`,
 `pmc.ncbi.nlm.nih.gov`, and `api.crossref.org` were saved to the environment draft.
@@ -75,31 +79,29 @@ probabilities from shared tags or an acute EMG ranking. Do not treat absence of 
 reported contraindication as proof of suitability. Where evidence is missing,
 retain “unknown” or identify a coach heuristic rather than manufacturing support.
 
-### Candidate scientific reading list — verification pending
+### Status of the initial scientific reading list
 
-These are starting points for review, not approved prescribing policies. Except
-for the verified Currier metadata above, dates and identifiers below still need
-checking against article records before import.
-Older guidance must be checked for superseding guidance as of the review date.
+The original candidates were checked during the focused review. Access depth is
+shown below; it does not imply that a software recommendation rule is approved.
 
-| Candidate source | Question to investigate before using it |
+| Source | Current review status |
 | --- | --- |
-| ACSM (2009), *Progression Models in Resistance Training for Healthy Adults*, [DOI 10.1249/MSS.0b013e3181915670](https://doi.org/10.1249/MSS.0b013e3181915670), [PubMed](https://pubmed.ncbi.nlm.nih.gov/19204579/) | How are progression recommendations scoped to goal and training status? What newer guidance supersedes this historical position stand? |
-| Currier et al. (2023), *Resistance training prescription for muscle strength and hypertrophy in healthy adults: a systematic review and Bayesian network meta-analysis*, [DOI 10.1136/bjsports-2023-106807](https://doi.org/10.1136/bjsports-2023-106807) | How do load, sets, and frequency relate to distinct outcomes? What uncertainty, study limitations, and population coverage limit individual inference? |
-| Schoenfeld, Ogborn and Krieger (2017), *Dose-response relationship between weekly resistance training volume and increases in muscle mass: a systematic review and meta-analysis*, [DOI 10.1080/02640414.2016.1210197](https://doi.org/10.1080/02640414.2016.1210197) | How was volume defined, and what limits applying aggregate results to a particular person, muscle, or circuit? |
-| Zourdos et al. (2016), *Novel Resistance Training-Specific Rating of Perceived Exertion Scale With Repetitions in Reserve*, [DOI 10.1519/JSC.0000000000001049](https://doi.org/10.1519/JSC.0000000000001049) | In whom and under which exercises/conditions was RIR-based exertion assessed? How reliable is it for the intended users? |
-| Vigotsky et al. (2018), *Interpreting Signal Amplitudes in Surface Electromyography Studies in Sport and Rehabilitation Sciences*, [DOI 10.3389/fphys.2017.00985](https://doi.org/10.3389/fphys.2017.00985) | Which inferences can an acute EMG study support, and which long-term adaptations require other evidence? |
+| ACSM (2009), [Progression Models](https://pubmed.ncbi.nlm.nih.gov/19204579/) | Historical record checked; explicitly updated by [ACSM 2026](https://pubmed.ncbi.nlm.nih.gov/41843416/) (S01), whose relevant full-text sections were inspected. |
+| Currier et al. (2023), [Resistance training prescription](https://pubmed.ncbi.nlm.nih.gov/37414459/) | Relevant full-text methods, results, and limitations inspected (S02); broad benefits and outcome-specific loading, with no universal programme equivalence. |
+| Schoenfeld, Ogborn and Krieger (2017), [Weekly volume and muscle mass](https://pubmed.ncbi.nlm.nih.gov/27433992/) | Abstract inspected (S04); historical context, supplemented by newer dose analyses. Linked commentary recorded separately, not appraised. |
+| Zourdos et al. (2016), [RIR-based exertion scale](https://pubmed.ncbi.nlm.nih.gov/26049792/) | Abstract inspected (S14); small squat-specific study, supplemented by prediction-accuracy evidence. |
+| Vigotsky et al. (2018), [Interpreting surface EMG](https://pubmed.ncbi.nlm.nih.gov/29354060/) | Relevant full-text inference/method sections inspected (S13); bibliographic volume year 2017 and first publication in 2018 retained separately. |
 
-No numerical set, repetition, load, or progression rule in this proposal is
-claimed to have been validated by these sources, whose findings remain unreviewed.
+Numerical prescribing policies remain subject to the scoped evidence and human
+review; the source index and 18 draft claim records are in the linked synthesis.
 
 ### Literature-review procedure
 
-Access now works through Europe PMC. Search with recorded query strings and search
-dates. Start with `resistance training AND (strength OR hypertrophy) AND (systematic
-review OR meta-analysis)`; add focused searches for exercise selection/substitution,
-range of motion, exercise order, rest intervals, volume, load, autoregulation, and
-RIR/RPE. These are proposed searches and have not yet been executed successfully.
+The initial focused review executed broad and refined searches through Europe PMC.
+The [search log](../research/2026-10-18/search-log.json) records exact query strings,
+dates, hit counts, first-page records, and limitations. Continue with explicit
+questions and recorded searches for later updates rather than treating this
+bounded selection as an exhaustive systematic review.
 
 Use generally healthy adults as the initial population; record age, sex, experience,
 training duration, and outcome specificity. Separate rehabilitation, pediatric,

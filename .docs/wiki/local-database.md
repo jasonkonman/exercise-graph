@@ -110,7 +110,8 @@ example and is not durable backup storage.
 - Custom-format dump restored into a separate database; restored record count
   was asserted. Synthetic schemas and the restore database were removed afterward.
 - Europe PMC returned the Currier 2023 record/abstract and open-access full-text XML
-  (`PMC10579494`). The literature's scientific appraisal remains to be done.
+  (`PMC10579494`). A subsequent [focused science review](exercise-science-review.md)
+  is now documented; independent human verification and policy approval remain pending.
 
 These checks establish the current development instance. They do not validate an
 application schema, a future task's snapshot restoration, or production deployment.

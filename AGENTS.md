@@ -19,6 +19,8 @@ requirement, not a label applied to an exercise list.
 - Feature requests: `.docs/requirements/98-feature-requests.md`, when created.
 - Initial corpus/graph research: `.docs/wiki/exercise-corpus-and-graph.md`.
 - Database decision and local operation: `.docs/wiki/local-database.md`.
+- Exercise-science synthesis: `.docs/wiki/exercise-science-review.md`.
+- Search, source, and draft claim records: `.docs/research/2026-10-18/*.json`.
 
 Use `.docs/` consistently. The repository has documentation and local database
 tooling; the exercise application is not implemented. Use the verified commands
