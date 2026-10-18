@@ -57,4 +57,24 @@ Given a programme, and Given a client's record, which includes
 
 suggest `target-client-programme-session-exercise-weights` to a `client` pre-session, taking into account how a client is feeling
 
+## Scientific grounding and traceability
+
+The exercise corpus and graph must be grounded in scientific research on physical
+training. This applies to exercise descriptions, relationships used to select
+exercises, and rules used to recommend sets, repetitions, or loads.
+
+- Each research-based claim or recommendation rule must retain its sources,
+  applicable population and training context, limitations, and review status.
+- Distinguish research findings from anatomical descriptions, imported catalog
+  annotations, coach heuristics, and observations about an individual client.
+- Unknown or disputed relationships must remain explicit. Do not imply that
+  sharing a muscle or movement pattern establishes equivalent training outcomes.
+- Recommendations must explain the relevant constraints, rules, and evidence;
+  coaches must be able to review and override them.
+- Imported exercise descriptions and media must retain source and licence details.
+
+The initial construction and persistence proposal is documented in
+[`exercise-corpus-and-graph.md`](../wiki/exercise-corpus-and-graph.md). Its POC scope
+and technology choices are proposals pending implementation, not existing features.
+
 ## Application
