@@ -1,7 +1,8 @@
 # Constructing and persisting the exercise corpus and graph
 
-Research date: 2026-10-18. Status: proposed POC design; no application, database,
-or recommendation engine has been implemented.
+Research date: 2026-10-18. Status: proposed POC application design. A local
+PostgreSQL instance is now verified; the application schema and recommendation
+engine have not been implemented. See [local database operation](local-database.md).
 
 ## Recommendation
 
@@ -29,17 +30,20 @@ including an actual exercise dataset, on the research date. The source list reco
 the inspected revisions. PostgreSQL findings were checked in its official source
 documentation; no database benchmark was run.
 
-Scientific article retrieval was attempted through Europe PMC, PubMed, PMC, and
-Crossref. All were blocked by the environment's network proxy with HTTP 403.
-The scientific references below are a **candidate reading list**, not an inspected
-body of evidence. Their metadata, findings, applicability, and current status still
-need verification. This document is a technical construction proposal and a
-literature-review protocol, not a completed scientific review.
+The initial scientific retrieval attempts were blocked by the network proxy.
+Access was subsequently rechecked successfully through Europe PMC: the Currier
+article record, abstract, and open-access full-text XML were retrieved. Its DOI,
+title, year, PMID `37414459`, and PMCID `PMC10579494` were confirmed from the record.
+Retrieval does not constitute critical appraisal. The scientific references below
+remain a **candidate reading list**, not a reviewed body of evidence. Their
+findings, applicability, and current status still need assessment. This document
+is a technical construction proposal and a literature-review protocol, not a
+completed scientific review.
 
 Access additions for `www.ebi.ac.uk`, `pubmed.ncbi.nlm.nih.gov`,
 `pmc.ncbi.nlm.nih.gov`, and `api.crossref.org` were saved to the environment draft.
-They require review/save and publication in environment settings; a retry after
-the draft save was still blocked. No new runtime access is assumed.
+The current machine now demonstrates Europe PMC access. This does not establish
+access to every publisher or remove the need to verify a future failed request.
 
 ## What scientific grounding requires
 
@@ -73,8 +77,9 @@ retain “unknown” or identify a coach heuristic rather than manufacturing sup
 
 ### Candidate scientific reading list — verification pending
 
-These are starting points for review, not approved prescribing policies. Dates
-and identifiers below must be checked against the article records before import.
+These are starting points for review, not approved prescribing policies. Except
+for the verified Currier metadata above, dates and identifiers below still need
+checking against article records before import.
 Older guidance must be checked for superseding guidance as of the review date.
 
 | Candidate source | Question to investigate before using it |
@@ -86,11 +91,11 @@ Older guidance must be checked for superseding guidance as of the review date.
 | Vigotsky et al. (2018), *Interpreting Signal Amplitudes in Surface Electromyography Studies in Sport and Rehabilitation Sciences*, [DOI 10.3389/fphys.2017.00985](https://doi.org/10.3389/fphys.2017.00985) | Which inferences can an acute EMG study support, and which long-term adaptations require other evidence? |
 
 No numerical set, repetition, load, or progression rule in this proposal is
-claimed to have been validated by these unread sources.
+claimed to have been validated by these sources, whose findings remain unreviewed.
 
 ### Literature-review procedure
 
-Once access works, search PubMed/Europe PMC with recorded query strings and search
+Access now works through Europe PMC. Search with recorded query strings and search
 dates. Start with `resistance training AND (strength OR hypertrophy) AND (systematic
 review OR meta-analysis)`; add focused searches for exercise selection/substitution,
 range of motion, exercise order, rest intervals, volume, load, autoregulation, and
@@ -226,8 +231,10 @@ provenance metadata; they are not automatically approved by adding a citation.
 | Option | Strengths | Tradeoffs | POC judgment |
 | --- | --- | --- | --- |
 | Versioned JSON only | Easy to review, diff, export, and reproduce | Application must implement integrity, concurrent editing, and querying | Use for seeds/exchanges, not the only multi-user store |
-| SQLite with typed relations | Small local prototype, one file, relational queries | Concurrent writer and hosted deployment constraints need consideration | Reasonable for a strictly local, single-user prototype |
+| SQLite with typed relations | Small local prototype, one file, relational queries | Single-writer concurrency and a later PostgreSQL migration need consideration | Alternative for a single-user embedded product; do not maintain both backends now |
 | PostgreSQL with typed relations | Foreign keys, transactions, recursive CTEs, JSONB, and row-security capabilities verified in official docs | Requires a database service; graph queries need explicit joins/CTEs | Recommended for the coach/client product direction |
+| DuckDB | Embedded analytical SQL over CSV/Parquet and other datasets | Adds a separate store if used for live application data | Optional later analysis of exports; defer for the POC |
+| Chroma | Embedding-based document retrieval with metadata filters | Embedding/index versions, synchronization, and another persistence lifecycle | Defer; semantic similarity does not establish evidence or enforce the relational graph |
 | Native property graph such as Neo4j | Graph-oriented modeling and traversal could suit relationship-heavy exploration | Another datastore/skill set; edition, licence, deployment, and performance need evaluation | Reconsider if measured query requirements justify it; not independently evaluated here |
 | RDF/triple store | Could help if formal ontologies and external semantic interchange become core requirements | Ontology, provenance, querying, and operational complexity | Defer; not independently evaluated here |
 
@@ -236,6 +243,12 @@ POC operations are filtering and short traversals alongside transactional progra
 and session data. A graph does not require a dedicated graph database. Revisit
 the choice if measured workloads require frequent deep/path-heavy traversals,
 external graph interoperability, or operations PostgreSQL cannot meet adequately.
+
+PostgreSQL 17 is now the selected authoritative store for the POC. Local installation,
+startup, transactional writes, constraints, JSONB, recursive traversal, restart
+persistence, and a synthetic backup/restore were exercised. This validates the
+development capability, not the proposed application schema. See the
+[database decision and comparison](local-database.md) for commands and limitations.
 
 ### Proposed PostgreSQL logical schema
 

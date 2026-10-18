@@ -18,9 +18,31 @@ requirement, not a label applied to an exercise list.
   the latest implemented state. Label proposals separately from implemented features.
 - Feature requests: `.docs/requirements/98-feature-requests.md`, when created.
 - Initial corpus/graph research: `.docs/wiki/exercise-corpus-and-graph.md`.
+- Database decision and local operation: `.docs/wiki/local-database.md`.
 
-Use `.docs/` consistently. The repository currently contains documentation only;
-do not invent installation, build, or test commands before an implementation exists.
+Use `.docs/` consistently. The repository has documentation and local database
+tooling; the exercise application is not implemented. Use the verified commands
+in the database guide and do not invent application build or test commands.
+
+## Persistence decision and local development
+
+- Use PostgreSQL 17 as the POC's single authoritative store for exercises, typed
+  relationships, evidence, reviews, and later programme/session records.
+- Use `scripts/dev-postgres.sh` for this Debian 13 cloud environment. It installs
+  without root and starts a private Unix-socket instance; keep its data outside Git.
+- Keep JSON seed/export files reviewable and versioned. Do not introduce a second
+  writable database merely for convenience.
+- SQLite is an alternative if the product is explicitly reduced to a single-user
+  embedded application, not a parallel persistence implementation or substitute
+  for PostgreSQL integration tests.
+- Defer DuckDB until analytical queries over exports justify it. Treat any such
+  analysis as derived from the authoritative store.
+- Defer Chroma and embeddings until a measured semantic-retrieval need exists.
+  Start with structured queries and PostgreSQL text search; evaluate pgvector if
+  vectors become useful. Similarity is not evidence quality or scientific validity.
+- Research access was rechecked successfully through Europe PMC, including an
+  open-access full-text download. Recheck failed destinations individually rather
+  than assuming that all internet access is available or blocked.
 
 ## Scientific grounding and provenance
 
